@@ -30,11 +30,11 @@ Segment::~Segment   ()
 }
 
 float Segment::GetSegDuration() {
-    return this->duration;
+    // return this->duration;
     // TODO: add Intime duration like below: current problem: not for VBR video and often -nan
-    // uint64_t downloadBytes = this->GetDownloadedBytes();
-    // uint64_t streamBytes = this->GetStreamBytes(); 
-    // return this->duration * streamBytes / downloadBytes;
+    uint64_t downloadBytes = this->GetDownloadedBytes();
+    uint64_t streamBytes = this->GetStreamBytes(); 
+    return downloadBytes > 0 ? this->duration * streamBytes / downloadBytes : 0;
 }
 
 void Segment::SetDuration(float duration) {

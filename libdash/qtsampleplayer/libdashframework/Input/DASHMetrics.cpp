@@ -40,9 +40,11 @@ float DASHMetrics::GetAverageThroughput() const {
     float tpt_sum = 0;
     int count = 0;
     for (auto item : this->throughputHistory) {
-        tpt_sum += (item.first / (item.second == 0 ? 1 : item.second));
+        float t = ((float)item.first / 1024.0) / (item.second == 0 ? 1 : (float)item.second / 1000.0);
+        // std::cout << "[BUPT DEBUG][qt/DASHMetrics.cpp] i=" << count << " bytes=" << item.first << " dur=" << item.second << " tpt=" << t << std::endl;
+        tpt_sum += t;
         count += 1;
     }
     
-    return tpt_sum / count;
+    return tpt_sum / count; //  (KBps)
 }

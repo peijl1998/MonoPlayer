@@ -32,7 +32,7 @@ namespace dash
         {
             public:
                 virtual ~ISegmentList(){}
-                virtual float GetSegDuration() {return -1;}
+                virtual float GetSegDuration() const = 0 ;
                 /**
                  *  Returns a reference to a vector of pointers to dash::mpd::ISegmentURL objects that are contained in this SegmentList.
                  *  @return     a reference to a vector of pointers to dash::mpd::ISegmentURL objects

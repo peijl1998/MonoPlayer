@@ -30,6 +30,8 @@ AbstractChunk::~AbstractChunk       ()
     DestroyThreadPortable(this->dlThread);
 }
 
+uint64_t AbstractChunk::extra_cost_us = 0;
+
 void    AbstractChunk::AbortDownload                ()
 {
     this->stateManager.CheckAndSet(IN_PROGRESS, REQUEST_ABORT);
@@ -92,7 +94,7 @@ int     AbstractChunk::Read                         (uint8_t *data, size_t len)
     // while(this->state != COMPLETED && this->state != ABORTED)
     //     SleepConditionVariableCS(&this->stateChanged, &this->stateLock, INFINITE);
     // LeaveCriticalSection(&this->stateLock);
-    auto ret = this->blockStream.GetBytes(data, len);
+    auto ret = this->blockStream.GetBytes(data, len); 
     // std::cout << "[BUPT DEBUG][AC.cpp] Read after, complete=" << (this->stateManager.State() == COMPLETED ? "true" : "false") << std::endl;
     return ret;
 }
@@ -159,6 +161,7 @@ void*   AbstractChunk::DownloadExternalConnection   (void *abstractchunk)
 void*   AbstractChunk::DownloadInternalConnection   (void *abstractchunk)
 {
     AbstractChunk *chunk  = (AbstractChunk *) abstractchunk;
+    extra_cost_us = 0;
     chunk->response = curl_easy_perform(chunk->curl);
 
     curl_easy_cleanup(chunk->curl);
@@ -168,7 +171,8 @@ void*   AbstractChunk::DownloadInternalConnection   (void *abstractchunk)
         chunk->stateManager.State(ABORTED);
     else {
         HTTPTransaction *httpTransaction = chunk->httpTransactions.at(chunk->httpTransactions.size()-1);
-        httpTransaction->SetDownloadFinishedTime(Time::GetCurrentUTCTimeInMilliSec());
+        // std::cout << extra_cost_us << std::endl;
+        httpTransaction->SetDownloadFinishedTime(Time::GetCurrentUTCTimeInMilliSec() - extra_cost_us / 1000);
         
         /*for (int i = 0; i < chunk->httpTransactions.size(); ++i) {
             HTTPTransaction* tmp = chunk->httpTransactions[i];
@@ -191,6 +195,7 @@ void    AbstractChunk::NotifyDownloadRateChanged    ()
 }
 size_t  AbstractChunk::CurlResponseCallback         (void *contents, size_t size, size_t nmemb, void *userp)
 {
+    auto t1 = clock();
     size_t realsize = size * nmemb;
     AbstractChunk *chunk = (AbstractChunk *)userp;
 
@@ -205,9 +210,10 @@ size_t  AbstractChunk::CurlResponseCallback         (void *contents, size_t size
     HTTPTransaction *httpTransaction = chunk->httpTransactions.at(chunk->httpTransactions.size() - 1);
     httpTransaction->AddReceivedBytes(realsize);
 
-    chunk->bytesDownloaded += realsize;
-    chunk->NotifyDownloadRateChanged();
 
+    chunk->bytesDownloaded += realsize;
+    // chunk->NotifyDownloadRateChanged();
+    extra_cost_us += clock() - t1;
     return realsize;
 }
 size_t  AbstractChunk::CurlDebugCallback            (CURL *url, curl_infotype infoType, char * data, size_t length, void *userdata)
@@ -238,7 +244,7 @@ void    AbstractChunk::HandleHeaderOutCallback      ()
     httpTransaction->SetRange(this->Range());
     httpTransaction->SetType(this->GetType());
     httpTransaction->SetRequestSentTime(Time::GetCurrentUTCTimeInMilliSec());
-    // std::cout << "AC url=" << this->AbsoluteURI() << " " << Time::GetCurrentUTCTimeInMilliSec() <<  std::endl;
+    // std::cout << "[BUPT DEBUG][libdash/AbstractChunk.cpp] dowloading " << this->AbsoluteURI() <<  std::endl;
     this->httpTransactions.push_back(httpTransaction);
 }
 void    AbstractChunk::HandleHeaderInCallback       (std::string data)

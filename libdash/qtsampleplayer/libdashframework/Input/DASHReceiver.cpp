@@ -213,7 +213,7 @@ void                        DASHReceiver::NotifySegmentDownloaded   (MediaObject
     const std::vector<IHTTPTransaction *>& https = media->GetHTTPTransactionList();
     for (auto http : https) {
         bytes += http->ReceivedBytes();
-        duration += (http->DownloadFinishedTime() - http->RequestSentTime());
+        duration += (http->DownloadFinishedTime() - http->ResponseReceivedTime());
     }
 
     this->observer->OnSegmentDownloaded(bytes, duration);
@@ -251,9 +251,9 @@ void*                       DASHReceiver::DoBuffering               (void *recei
 
     while(media != NULL && dashReceiver->isBuffering)
     {
-        std::cout << "[BUPT DEBUG][qt/DASHReceiver.cpp] buffer level=" \
-                  << dashReceiver->buffer->BufferLevel() << " full=" \ 
-                  << (dashReceiver->buffer->Full() ? "true": "false") << std::endl;
+        // std::cout << "[BUPT DEBUG][qt/DASHReceiver.cpp] buffer level=" \
+        //           << dashReceiver->buffer->BufferLevel() << " full=" \ 
+        //           << (dashReceiver->buffer->Full() ? "true": "false") << std::endl;
 
         if (!dashReceiver->buffer->Full()) {
             media->StartDownload();

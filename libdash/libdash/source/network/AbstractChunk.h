@@ -79,7 +79,7 @@ namespace dash
                 CURLcode                            response;
                 uint64_t                            bytesDownloaded;
                 DownloadStateManager                stateManager;
-
+                static uint64_t                     extra_cost_us;
                 std::vector<dash::metrics::TCPConnection *>     tcpConnections;
                 std::vector<dash::metrics::HTTPTransaction *>   httpTransactions;
 

@@ -433,6 +433,33 @@ libdashframework/Adaptation/ManualAdaptation.cpp.s:
 	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.s
 .PHONY : libdashframework/Adaptation/ManualAdaptation.cpp.s
 
+libdashframework/Adaptation/SimpleThroughputLogic.o: libdashframework/Adaptation/SimpleThroughputLogic.cpp.o
+
+.PHONY : libdashframework/Adaptation/SimpleThroughputLogic.o
+
+# target to build an object file
+libdashframework/Adaptation/SimpleThroughputLogic.cpp.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o
+.PHONY : libdashframework/Adaptation/SimpleThroughputLogic.cpp.o
+
+libdashframework/Adaptation/SimpleThroughputLogic.i: libdashframework/Adaptation/SimpleThroughputLogic.cpp.i
+
+.PHONY : libdashframework/Adaptation/SimpleThroughputLogic.i
+
+# target to preprocess a source file
+libdashframework/Adaptation/SimpleThroughputLogic.cpp.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.i
+.PHONY : libdashframework/Adaptation/SimpleThroughputLogic.cpp.i
+
+libdashframework/Adaptation/SimpleThroughputLogic.s: libdashframework/Adaptation/SimpleThroughputLogic.cpp.s
+
+.PHONY : libdashframework/Adaptation/SimpleThroughputLogic.s
+
+# target to generate assembly for a file
+libdashframework/Adaptation/SimpleThroughputLogic.cpp.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.s
+.PHONY : libdashframework/Adaptation/SimpleThroughputLogic.cpp.s
+
 libdashframework/Buffer/AudioChunk.o: libdashframework/Buffer/AudioChunk.cpp.o
 
 .PHONY : libdashframework/Buffer/AudioChunk.o
@@ -1016,6 +1043,9 @@ help:
 	@echo "... libdashframework/Adaptation/ManualAdaptation.o"
 	@echo "... libdashframework/Adaptation/ManualAdaptation.i"
 	@echo "... libdashframework/Adaptation/ManualAdaptation.s"
+	@echo "... libdashframework/Adaptation/SimpleThroughputLogic.o"
+	@echo "... libdashframework/Adaptation/SimpleThroughputLogic.i"
+	@echo "... libdashframework/Adaptation/SimpleThroughputLogic.s"
 	@echo "... libdashframework/Buffer/AudioChunk.o"
 	@echo "... libdashframework/Buffer/AudioChunk.i"
 	@echo "... libdashframework/Buffer/AudioChunk.s"

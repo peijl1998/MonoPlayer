@@ -611,6 +611,8 @@ AdaptationLogicFactory.h
 /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AdaptationLogicFactory.h
 IAdaptationLogic.h
 /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/IAdaptationLogic.h
+SimpleThroughputLogic.h
+/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.h
 AlwaysLowestLogic.h
 /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AlwaysLowestLogic.h
 ManualAdaptation.h
@@ -627,6 +629,8 @@ AbstractAdaptationLogic.h
 /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AbstractAdaptationLogic.h
 
 /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/IAdaptationLogic.h
+../Input/DASHMetrics.h
+/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/DASHMetrics.h
 ../Input/MediaObject.h
 /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/MediaObject.h
 IRepresentation.h
@@ -637,6 +641,18 @@ ManualAdaptation.h
 /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/ManualAdaptation.h
 
 /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/ManualAdaptation.h
+AbstractAdaptationLogic.h
+/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AbstractAdaptationLogic.h
+../MPD/AdaptationSetStream.h
+/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/AdaptationSetStream.h
+
+/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.cpp
+SimpleThroughputLogic.h
+/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.h
+limits.h
+-
+
+/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.h
 AbstractAdaptationLogic.h
 /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AbstractAdaptationLogic.h
 ../MPD/AdaptationSetStream.h

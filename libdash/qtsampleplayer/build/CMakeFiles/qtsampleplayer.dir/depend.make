@@ -58,6 +58,7 @@ CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o: ../libdashframew
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o: ../libdashframework/Adaptation/AlwaysLowestLogic.h
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o: ../libdashframework/Adaptation/IAdaptationLogic.h
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o: ../libdashframework/Adaptation/ManualAdaptation.h
+CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o: ../libdashframework/Adaptation/SimpleThroughputLogic.h
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o: ../libdashframework/Buffer/AudioChunk.h
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o: ../libdashframework/Buffer/Buffer.h
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o: ../libdashframework/Buffer/IBufferObserver.h
@@ -631,6 +632,7 @@ CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o: ../libdashframework/Adaptatio
 CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o: ../libdashframework/Adaptation/AlwaysLowestLogic.h
 CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o: ../libdashframework/Adaptation/IAdaptationLogic.h
 CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o: ../libdashframework/Adaptation/ManualAdaptation.h
+CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o: ../libdashframework/Adaptation/SimpleThroughputLogic.h
 CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o: ../libdashframework/Buffer/AudioChunk.h
 CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o: ../libdashframework/Buffer/Buffer.h
 CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o: ../libdashframework/Buffer/IBufferObserver.h
@@ -1428,6 +1430,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AbstractAdaptationLogi
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AbstractAdaptationLogic.cpp.o: ../libdashframework/Adaptation/AbstractAdaptationLogic.cpp
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AbstractAdaptationLogic.cpp.o: ../libdashframework/Adaptation/AbstractAdaptationLogic.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AbstractAdaptationLogic.cpp.o: ../libdashframework/Adaptation/IAdaptationLogic.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AbstractAdaptationLogic.cpp.o: ../libdashframework/Input/DASHMetrics.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AbstractAdaptationLogic.cpp.o: ../libdashframework/Input/MediaObject.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AbstractAdaptationLogic.cpp.o: ../libdashframework/Portable/MultiThreading.h
 
@@ -1470,6 +1473,8 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o: ../libdashframework/Adaptation/AlwaysLowestLogic.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o: ../libdashframework/Adaptation/IAdaptationLogic.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o: ../libdashframework/Adaptation/ManualAdaptation.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o: ../libdashframework/Adaptation/SimpleThroughputLogic.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o: ../libdashframework/Input/DASHMetrics.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o: ../libdashframework/Input/MediaObject.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o: ../libdashframework/MPD/AbstractRepresentationStream.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o: ../libdashframework/MPD/AdaptationSetStream.h
@@ -1519,6 +1524,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.o: ../libdashframework/Adaptation/AlwaysLowestLogic.cpp
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.o: ../libdashframework/Adaptation/AlwaysLowestLogic.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.o: ../libdashframework/Adaptation/IAdaptationLogic.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.o: ../libdashframework/Input/DASHMetrics.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.o: ../libdashframework/Input/MediaObject.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.o: ../libdashframework/Portable/MultiThreading.h
 
@@ -1559,6 +1565,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o: ../libdashframework/Adaptation/IAdaptationLogic.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o: ../libdashframework/Adaptation/ManualAdaptation.cpp
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o: ../libdashframework/Adaptation/ManualAdaptation.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o: ../libdashframework/Input/DASHMetrics.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o: ../libdashframework/Input/MediaObject.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o: ../libdashframework/MPD/AbstractRepresentationStream.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o: ../libdashframework/MPD/AdaptationSetStream.h
@@ -1570,6 +1577,56 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o: ../libdashframework/MPD/SingleMediaSegmentStream.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o: ../libdashframework/MPD/TimeResolver.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o: ../libdashframework/Portable/MultiThreading.h
+
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IAdaptationSet.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IBaseUrl.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IChunk.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IConnection.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IContentComponent.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IDASHMetrics.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IDescriptor.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IDownloadObserver.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IDownloadableChunk.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IHTTPTransaction.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IMPD.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IMPDElement.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IMetrics.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IMultipleSegmentBase.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/INode.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IPeriod.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IProgramInformation.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IRange.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IRepresentation.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IRepresentationBase.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/ISegment.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/ISegmentBase.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/ISegmentList.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/ISegmentTemplate.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/ISegmentTimeline.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/ISegmentURL.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/ISubRepresentation.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/ISubset.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/ITCPConnection.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IThroughputMeasurement.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/ITimeline.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/IURLType.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../../libdash/include/config.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/Adaptation/AbstractAdaptationLogic.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/Adaptation/IAdaptationLogic.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/Adaptation/SimpleThroughputLogic.cpp
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/Adaptation/SimpleThroughputLogic.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/Input/DASHMetrics.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/Input/MediaObject.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/MPD/AbstractRepresentationStream.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/MPD/AdaptationSetStream.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/MPD/BaseUrlResolver.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/MPD/IRepresentationStream.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/MPD/RepresentationStreamFactory.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/MPD/SegmentListStream.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/MPD/SegmentTemplateStream.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/MPD/SingleMediaSegmentStream.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/MPD/TimeResolver.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/Portable/MultiThreading.h
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o: ../../libdash/include/config.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o: ../libdashframework/Buffer/AudioChunk.cpp
@@ -2319,6 +2376,7 @@ CMakeFiles/qtsampleplayer.dir/main.cpp.o: ../libdashframework/Adaptation/Adaptat
 CMakeFiles/qtsampleplayer.dir/main.cpp.o: ../libdashframework/Adaptation/AlwaysLowestLogic.h
 CMakeFiles/qtsampleplayer.dir/main.cpp.o: ../libdashframework/Adaptation/IAdaptationLogic.h
 CMakeFiles/qtsampleplayer.dir/main.cpp.o: ../libdashframework/Adaptation/ManualAdaptation.h
+CMakeFiles/qtsampleplayer.dir/main.cpp.o: ../libdashframework/Adaptation/SimpleThroughputLogic.h
 CMakeFiles/qtsampleplayer.dir/main.cpp.o: ../libdashframework/Buffer/AudioChunk.h
 CMakeFiles/qtsampleplayer.dir/main.cpp.o: ../libdashframework/Buffer/Buffer.h
 CMakeFiles/qtsampleplayer.dir/main.cpp.o: ../libdashframework/Buffer/IBufferObserver.h
@@ -2613,6 +2671,7 @@ CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: ../
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: ../libdashframework/Adaptation/AlwaysLowestLogic.h
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: ../libdashframework/Adaptation/IAdaptationLogic.h
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: ../libdashframework/Adaptation/ManualAdaptation.h
+CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: ../libdashframework/Adaptation/SimpleThroughputLogic.h
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: ../libdashframework/Buffer/AudioChunk.h
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: ../libdashframework/Buffer/Buffer.h
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: ../libdashframework/Buffer/IBufferObserver.h

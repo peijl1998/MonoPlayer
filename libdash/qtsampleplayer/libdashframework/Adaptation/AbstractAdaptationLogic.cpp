@@ -11,6 +11,7 @@
 
 #include "AbstractAdaptationLogic.h"
 
+using namespace libdash::framework::input;
 using namespace libdash::framework::adaptation;
 using namespace dash::mpd;
 
@@ -18,11 +19,16 @@ AbstractAdaptationLogic::AbstractAdaptationLogic    (dash::mpd::IMPD *mpd, dash:
                          mpd                        (mpd),
                          period                     (period),
                          adaptationSet              (adaptationSet),
-                         representation             (NULL)
+                         representation             (NULL),
+                         metrics                    (NULL)
 {
 }
 AbstractAdaptationLogic::~AbstractAdaptationLogic   ()
 {
+}
+
+void AbstractAdaptationLogic::SetMetrics(const DASHMetrics* metrics) {
+    this->metrics = metrics;
 }
 
 uint32_t            AbstractAdaptationLogic::GetPosition        ()

@@ -47,6 +47,7 @@ namespace libdash
                     std::vector<IMediaObjectBufferObserver *>   observer;
                     bool                                eos;
                     uint32_t                            maxcapacity;
+                    input::MediaObject*                 current_handle_object;
                     mutable CRITICAL_SECTION            monitorMutex;
                     mutable CONDITION_VARIABLE          full;
                     mutable CONDITION_VARIABLE          empty;

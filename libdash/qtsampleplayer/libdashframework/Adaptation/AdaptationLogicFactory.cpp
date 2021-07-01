@@ -20,7 +20,7 @@ IAdaptationLogic* AdaptationLogicFactory::Create(LogicType logic, IMPD *mpd, IPe
     {
         case Manual:            return new ManualAdaptation     (mpd, period, adaptationSet);
         case AlwaysLowest:      return new AlwaysLowestLogic    (mpd, period, adaptationSet);
-
+        case SimpleThroughput:  return new SimpleThroughputLogic(mpd, period, adaptationSet);
         default:                return new ManualAdaptation     (mpd, period, adaptationSet);
     }
 }

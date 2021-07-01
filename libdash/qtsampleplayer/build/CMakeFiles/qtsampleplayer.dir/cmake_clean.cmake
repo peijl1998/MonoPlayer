@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o"
   "CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.o"
   "CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o"
+  "CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o"
   "CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o"
   "CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/MediaObjectBuffer.cpp.o"
   "CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHManager.cpp.o"

@@ -12,6 +12,7 @@
 #ifndef LIBDASH_FRAMEWORK_ADAPTATION_IADAPTATIONLOGIC_H_
 #define LIBDASH_FRAMEWORK_ADAPTATION_IADAPTATIONLOGIC_H_
 
+#include "../Input/DASHMetrics.h"
 #include "../Input/MediaObject.h"
 #include "IRepresentation.h"
 
@@ -24,7 +25,8 @@ namespace libdash
             enum LogicType
             {
                 Manual,
-                AlwaysLowest
+                AlwaysLowest,
+                SimpleThroughput
             };
 
             class IAdaptationLogic
@@ -39,6 +41,7 @@ namespace libdash
                                                                              dash::mpd::IAdaptationSet *adaptationSet,
                                                                              dash::mpd::IRepresentation *representation)    = 0;
                     virtual LogicType                   GetType             ()                                              = 0;
+                    virtual void SetMetrics(const libdash::framework::input::DASHMetrics*) = 0;
             };
         }
     }

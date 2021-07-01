@@ -35,12 +35,14 @@ namespace libdash
                                                                              dash::mpd::IRepresentation *representation);
 
                     virtual LogicType                   GetType             ()  = 0;
+                    virtual void SetMetrics(const libdash::framework::input::DASHMetrics*);
 
                 protected:
-                    dash::mpd::IMPD                     *mpd;
-                    dash::mpd::IPeriod                  *period;
-                    dash::mpd::IAdaptationSet           *adaptationSet;
-                    dash::mpd::IRepresentation          *representation;
+                    dash::mpd::IMPD                        *mpd;
+                    dash::mpd::IPeriod                     *period;
+                    dash::mpd::IAdaptationSet              *adaptationSet;
+                    dash::mpd::IRepresentation             *representation;
+                    const libdash::framework::input::DASHMetrics *metrics;
                     uint32_t                            segmentNumber;
             };
         }

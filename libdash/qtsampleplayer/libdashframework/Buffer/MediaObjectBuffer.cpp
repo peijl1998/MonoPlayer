@@ -19,7 +19,8 @@ using namespace dash::network;
 
 MediaObjectBuffer::MediaObjectBuffer    (uint32_t maxcapacity) :
                    eos                  (false),
-                   maxcapacity          (maxcapacity)
+                   maxcapacity          (maxcapacity),
+                   current_handle_object(NULL)
 {
     InitializeConditionVariable (&this->full);
     InitializeConditionVariable (&this->empty);
@@ -28,7 +29,7 @@ MediaObjectBuffer::MediaObjectBuffer    (uint32_t maxcapacity) :
 MediaObjectBuffer::~MediaObjectBuffer   ()
 {
     this->Clear();
-
+    current_handle_object = NULL; 
     DeleteConditionVariable (&this->full);
     DeleteConditionVariable (&this->empty);
     DeleteCriticalSection   (&this->monitorMutex);
@@ -40,8 +41,10 @@ float MediaObjectBuffer::BufferLevel ()
 {
     float level = 0;
     for (auto iter = this->mediaobjects.begin(); iter != this->mediaobjects.end(); ++iter) {
-        // std::cout << "!!! " << ((*iter)->GetSegDuration()) << std::endl;
         level += ((*iter)->GetSegDuration());
+    }
+    if (current_handle_object != NULL) {
+        level += current_handle_object->GetSegDuration();     
     }
     return level;
 }
@@ -105,7 +108,8 @@ MediaObject*    MediaObjectBuffer::GetFront         ()
     WakeAllConditionVariable(&this->empty);
     LeaveCriticalSection(&this->monitorMutex);
     this->Notify();
-
+    
+    current_handle_object = object;
     return object;
 }
 uint32_t        MediaObjectBuffer::Length           ()

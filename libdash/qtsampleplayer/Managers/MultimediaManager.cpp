@@ -148,7 +148,6 @@ void    MultimediaManager::StopAudio                        ()
 bool    MultimediaManager::SetVideoQuality                  (IPeriod* period, IAdaptationSet *adaptationSet, IRepresentation *representation)
 {
     EnterCriticalSection(&this->monitorMutex);
-
     this->period                = period;
     this->videoAdaptationSet    = adaptationSet;
     this->videoRepresentation   = representation;
@@ -209,7 +208,7 @@ void    MultimediaManager::NotifyAudioBufferObservers       (uint32_t fillstateI
 }
 void    MultimediaManager::InitVideoRendering               (uint32_t offset)
 {
-    this->videoLogic = AdaptationLogicFactory::Create(libdash::framework::adaptation::Manual, this->mpd, this->period, this->videoAdaptationSet);
+    this->videoLogic = AdaptationLogicFactory::Create(libdash::framework::adaptation::SimpleThroughput, this->mpd, this->period, this->videoAdaptationSet);
 
     this->videoStream = new MultimediaStream(sampleplayer::managers::VIDEO, this->mpd, VIDEO_SEGMENTBUFFER_SIZE, 20, 0);
     this->videoStream->AttachStreamObserver(this);
@@ -218,7 +217,7 @@ void    MultimediaManager::InitVideoRendering               (uint32_t offset)
 }
 void    MultimediaManager::InitAudioPlayback                (uint32_t offset)
 {
-    this->audioLogic = AdaptationLogicFactory::Create(libdash::framework::adaptation::Manual, this->mpd, this->period, this->audioAdaptationSet);
+    this->audioLogic = AdaptationLogicFactory::Create(libdash::framework::adaptation::SimpleThroughput, this->mpd, this->period, this->audioAdaptationSet);
 
     this->audioStream = new MultimediaStream(sampleplayer::managers::AUDIO, this->mpd, AUDIO_SEGMENTBUFFER_SIZE, 0, 20);
     this->audioStream->AttachStreamObserver(this);
@@ -386,23 +385,48 @@ void MultimediaManager::Monitor(MultimediaManager* manager, const std::string& t
     bool* EoM = NULL;
     MultimediaStream* stream = NULL;
     const DASHMetrics* metrics = NULL;
-    
+    IRepresentation** rep = NULL;
+    IAdaptationLogic* logic = NULL;
+    int last_rep_bw = -1;
+
     if (type == "video") {
         EoM = &manager->isVideoMonitoring;
         stream = manager->videoStream;
+        rep = &manager->videoRepresentation;
+        logic = manager->videoLogic;
     } else if (type == "audio") {
         EoM = &manager->isAudioMonitoring;
         stream = manager->audioStream;
+        rep = &manager->audioRepresentation;
+        logic = manager->audioLogic;
     } else {
         std::cout << "[BUPT ERROR][qt/MultimediaManager.cpp] unknown monitor type: " << type << std::endl;
     }
 
+    metrics = stream->GetMetrics();
+    logic->SetMetrics(metrics);
     while (*EoM) {
         stream->UpdateMetrics();
-        metrics = stream->GetMetrics();
-        std::cout << "[BUPT DEBUG][qt/MultimediaManager.cpp] Buffer Level=" << metrics->GetBufferLevel() \
-                  << " AvgThroughput=" << metrics->GetThroughput() << std::endl;
-        // Send metrics into logic and SetVideoQuality.
+        // metrics = stream->GetMetrics();
+        std::cout << "[BUPT DEBUG][qt/MultimediaManager.cpp] StreamType=" << type \
+                  << " Buffer Level=" << metrics->GetBufferLevel() \
+                  << " AvgThroughput=" << metrics->GetThroughput() \
+                  << " CurrentRepID=" << (*rep)->GetId() \
+                  << " CurrentRepBandwidth=" << (*rep)->GetBandwidth() << std::endl;
+        
+        IRepresentation* target_rep = logic->GetRepresentation();
+        if (target_rep->GetBandwidth() != (*rep)->GetBandwidth()) {
+            std::cout << "[BUPT DEBUG][qt/MultimediaManager.cpp] ABR Change from " \ 
+                      << (*rep)->GetBandwidth() << " to " << target_rep->GetBandwidth() << std::endl;
+            
+            if (type == "video") {
+                manager->SetVideoQuality(manager->period, manager->videoAdaptationSet, target_rep);
+            } else if (type == "audio") {
+                manager->SetAudioQuality(manager->period, manager->audioAdaptationSet, target_rep);
+            }
+        }
+
         PortableSleep(0.5);        
     }
 }
+

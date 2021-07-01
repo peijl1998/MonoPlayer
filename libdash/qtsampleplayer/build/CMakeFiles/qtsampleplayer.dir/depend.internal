@@ -59,6 +59,7 @@ CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AlwaysLowestLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/IAdaptationLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/ManualAdaptation.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/AudioChunk.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/Buffer.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/IBufferObserver.h
@@ -632,6 +633,7 @@ CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AlwaysLowestLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/IAdaptationLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/ManualAdaptation.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/AudioChunk.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/Buffer.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/IBufferObserver.h
@@ -1429,6 +1431,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AbstractAdaptationLogi
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AbstractAdaptationLogic.cpp
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AbstractAdaptationLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/IAdaptationLogic.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/DASHMetrics.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/MediaObject.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Portable/MultiThreading.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o
@@ -1471,6 +1474,8 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AlwaysLowestLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/IAdaptationLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/ManualAdaptation.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/DASHMetrics.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/MediaObject.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/AbstractRepresentationStream.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/AdaptationSetStream.h
@@ -1520,6 +1525,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AlwaysLowestLogic.cpp
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AlwaysLowestLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/IAdaptationLogic.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/DASHMetrics.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/MediaObject.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Portable/MultiThreading.h
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o
@@ -1560,6 +1566,57 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/IAdaptationLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/ManualAdaptation.cpp
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/ManualAdaptation.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/DASHMetrics.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/MediaObject.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/AbstractRepresentationStream.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/AdaptationSetStream.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/BaseUrlResolver.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/IRepresentationStream.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/RepresentationStreamFactory.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/SegmentListStream.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/SegmentTemplateStream.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/SingleMediaSegmentStream.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/TimeResolver.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Portable/MultiThreading.h
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o
+ ../../libdash/include/IAdaptationSet.h
+ ../../libdash/include/IBaseUrl.h
+ ../../libdash/include/IChunk.h
+ ../../libdash/include/IConnection.h
+ ../../libdash/include/IContentComponent.h
+ ../../libdash/include/IDASHMetrics.h
+ ../../libdash/include/IDescriptor.h
+ ../../libdash/include/IDownloadObserver.h
+ ../../libdash/include/IDownloadableChunk.h
+ ../../libdash/include/IHTTPTransaction.h
+ ../../libdash/include/IMPD.h
+ ../../libdash/include/IMPDElement.h
+ ../../libdash/include/IMetrics.h
+ ../../libdash/include/IMultipleSegmentBase.h
+ ../../libdash/include/INode.h
+ ../../libdash/include/IPeriod.h
+ ../../libdash/include/IProgramInformation.h
+ ../../libdash/include/IRange.h
+ ../../libdash/include/IRepresentation.h
+ ../../libdash/include/IRepresentationBase.h
+ ../../libdash/include/ISegment.h
+ ../../libdash/include/ISegmentBase.h
+ ../../libdash/include/ISegmentList.h
+ ../../libdash/include/ISegmentTemplate.h
+ ../../libdash/include/ISegmentTimeline.h
+ ../../libdash/include/ISegmentURL.h
+ ../../libdash/include/ISubRepresentation.h
+ ../../libdash/include/ISubset.h
+ ../../libdash/include/ITCPConnection.h
+ ../../libdash/include/IThroughputMeasurement.h
+ ../../libdash/include/ITimeline.h
+ ../../libdash/include/IURLType.h
+ ../../libdash/include/config.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AbstractAdaptationLogic.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/IAdaptationLogic.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.cpp
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/DASHMetrics.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/MediaObject.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/AbstractRepresentationStream.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/MPD/AdaptationSetStream.h
@@ -2320,6 +2377,7 @@ CMakeFiles/qtsampleplayer.dir/main.cpp.o
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AlwaysLowestLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/IAdaptationLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/ManualAdaptation.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/AudioChunk.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/Buffer.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/IBufferObserver.h
@@ -2614,6 +2672,7 @@ CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/AlwaysLowestLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/IAdaptationLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/ManualAdaptation.h
+ /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/AudioChunk.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/Buffer.h
  /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/IBufferObserver.h

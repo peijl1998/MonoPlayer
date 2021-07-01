@@ -13,6 +13,7 @@
 #define LIBDASH_FRAMEWORK_ADAPTATION_ADAPTATIONLOGICFACTORY_H_
 
 #include "IAdaptationLogic.h"
+#include "SimpleThroughputLogic.h"
 #include "AlwaysLowestLogic.h"
 #include "ManualAdaptation.h"
 

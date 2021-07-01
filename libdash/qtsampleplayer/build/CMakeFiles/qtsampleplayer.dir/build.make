@@ -401,9 +401,33 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o
 CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o.provides.build: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o
 
 
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o: ../libdashframework/Adaptation/SimpleThroughputLogic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.cpp
+
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.cpp > CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.i
+
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Adaptation/SimpleThroughputLogic.cpp -o CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.s
+
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o.requires
+
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o.provides: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o.provides
+
+CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o.provides.build: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o
+
+
 CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o: ../libdashframework/Buffer/AudioChunk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/AudioChunk.cpp
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.i: cmake_force
@@ -427,7 +451,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o.provides.
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/MediaObjectBuffer.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/MediaObjectBuffer.cpp.o: ../libdashframework/Buffer/MediaObjectBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/MediaObjectBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/MediaObjectBuffer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/MediaObjectBuffer.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Buffer/MediaObjectBuffer.cpp
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/MediaObjectBuffer.cpp.i: cmake_force
@@ -451,7 +475,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/MediaObjectBuffer.cpp.o.pr
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHManager.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHManager.cpp.o: ../libdashframework/Input/DASHManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHManager.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/DASHManager.cpp
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHManager.cpp.i: cmake_force
@@ -475,7 +499,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHManager.cpp.o.provides.
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHMetrics.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHMetrics.cpp.o: ../libdashframework/Input/DASHMetrics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHMetrics.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHMetrics.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHMetrics.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/DASHMetrics.cpp
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHMetrics.cpp.i: cmake_force
@@ -499,7 +523,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHMetrics.cpp.o.provides.
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHReceiver.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHReceiver.cpp.o: ../libdashframework/Input/DASHReceiver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHReceiver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHReceiver.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHReceiver.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/DASHReceiver.cpp
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHReceiver.cpp.i: cmake_force
@@ -523,7 +547,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHReceiver.cpp.o.provides
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObject.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObject.cpp.o: ../libdashframework/Input/MediaObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObject.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObject.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/MediaObject.cpp
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObject.cpp.i: cmake_force
@@ -547,7 +571,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObject.cpp.o.provides.
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObjectDecoder.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObjectDecoder.cpp.o: ../libdashframework/Input/MediaObjectDecoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObjectDecoder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObjectDecoder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObjectDecoder.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Input/MediaObjectDecoder.cpp
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObjectDecoder.cpp.i: cmake_force
@@ -571,7 +595,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Input/MediaObjectDecoder.cpp.o.pr
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Portable/MultiThreading.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/libdashframework/Portable/MultiThreading.cpp.o: ../libdashframework/Portable/MultiThreading.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Portable/MultiThreading.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/qtsampleplayer.dir/libdashframework/Portable/MultiThreading.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/libdashframework/Portable/MultiThreading.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/libdashframework/Portable/MultiThreading.cpp
 
 CMakeFiles/qtsampleplayer.dir/libdashframework/Portable/MultiThreading.cpp.i: cmake_force
@@ -595,7 +619,7 @@ CMakeFiles/qtsampleplayer.dir/libdashframework/Portable/MultiThreading.cpp.o.pro
 
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o: ../Managers/MultimediaManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Managers/MultimediaManager.cpp
 
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.i: cmake_force
@@ -619,7 +643,7 @@ CMakeFiles/qtsampleplayer.dir/Managers/MultimediaManager.cpp.o.provides.build: C
 
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaStream.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaStream.cpp.o: ../Managers/MultimediaStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/qtsampleplayer.dir/Managers/MultimediaStream.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/qtsampleplayer.dir/Managers/MultimediaStream.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Managers/MultimediaStream.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Managers/MultimediaStream.cpp
 
 CMakeFiles/qtsampleplayer.dir/Managers/MultimediaStream.cpp.i: cmake_force
@@ -643,7 +667,7 @@ CMakeFiles/qtsampleplayer.dir/Managers/MultimediaStream.cpp.o.provides.build: CM
 
 CMakeFiles/qtsampleplayer.dir/Renderer/QTAudioRenderer.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/Renderer/QTAudioRenderer.cpp.o: ../Renderer/QTAudioRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/qtsampleplayer.dir/Renderer/QTAudioRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/qtsampleplayer.dir/Renderer/QTAudioRenderer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Renderer/QTAudioRenderer.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Renderer/QTAudioRenderer.cpp
 
 CMakeFiles/qtsampleplayer.dir/Renderer/QTAudioRenderer.cpp.i: cmake_force
@@ -667,7 +691,7 @@ CMakeFiles/qtsampleplayer.dir/Renderer/QTAudioRenderer.cpp.o.provides.build: CMa
 
 CMakeFiles/qtsampleplayer.dir/Renderer/QTGLRenderer.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/Renderer/QTGLRenderer.cpp.o: ../Renderer/QTGLRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/qtsampleplayer.dir/Renderer/QTGLRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/qtsampleplayer.dir/Renderer/QTGLRenderer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Renderer/QTGLRenderer.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Renderer/QTGLRenderer.cpp
 
 CMakeFiles/qtsampleplayer.dir/Renderer/QTGLRenderer.cpp.i: cmake_force
@@ -691,7 +715,7 @@ CMakeFiles/qtsampleplayer.dir/Renderer/QTGLRenderer.cpp.o.provides.build: CMakeF
 
 CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o: ../UI/DASHPlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/UI/DASHPlayer.cpp
 
 CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.i: cmake_force
@@ -715,7 +739,7 @@ CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o.provides.build: CMakeFiles/qts
 
 CMakeFiles/qtsampleplayer.dir/UI/QtSamplePlayerGui.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/UI/QtSamplePlayerGui.cpp.o: ../UI/QtSamplePlayerGui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/qtsampleplayer.dir/UI/QtSamplePlayerGui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/qtsampleplayer.dir/UI/QtSamplePlayerGui.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/UI/QtSamplePlayerGui.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/UI/QtSamplePlayerGui.cpp
 
 CMakeFiles/qtsampleplayer.dir/UI/QtSamplePlayerGui.cpp.i: cmake_force
@@ -739,7 +763,7 @@ CMakeFiles/qtsampleplayer.dir/UI/QtSamplePlayerGui.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/qtsampleplayer.dir/main.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/qtsampleplayer.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/qtsampleplayer.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/main.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/main.cpp
 
 CMakeFiles/qtsampleplayer.dir/main.cpp.i: cmake_force
@@ -763,7 +787,7 @@ CMakeFiles/qtsampleplayer.dir/main.cpp.o.provides.build: CMakeFiles/qtsampleplay
 
 CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o: qrc_qtsampleplayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/qrc_qtsampleplayer.cpp
 
 CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.i: cmake_force
@@ -787,7 +811,7 @@ CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: qtsampleplayer_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/qtsampleplayer_autogen/mocs_compilation.cpp
 
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.i: cmake_force
@@ -825,6 +849,7 @@ qtsampleplayer_OBJECTS = \
 "CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o" \
 "CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.o" \
 "CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o" \
+"CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o" \
 "CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o" \
 "CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/MediaObjectBuffer.cpp.o" \
 "CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHManager.cpp.o" \
@@ -860,6 +885,7 @@ qtsampleplayer: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/Abstra
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.o
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/MediaObjectBuffer.cpp.o
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHManager.cpp.o
@@ -892,7 +918,7 @@ qtsampleplayer: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
 qtsampleplayer: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
 qtsampleplayer: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable qtsampleplayer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable qtsampleplayer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtsampleplayer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -914,6 +940,7 @@ CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/libdashfra
 CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AdaptationLogicFactory.cpp.o.requires
 CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/AlwaysLowestLogic.cpp.o.requires
 CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/ManualAdaptation.cpp.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/libdashframework/Adaptation/SimpleThroughputLogic.cpp.o.requires
 CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/AudioChunk.cpp.o.requires
 CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/libdashframework/Buffer/MediaObjectBuffer.cpp.o.requires
 CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/libdashframework/Input/DASHManager.cpp.o.requires

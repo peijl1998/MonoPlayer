@@ -64,7 +64,7 @@ void        MultimediaStream::SetPositionInMsec         (uint32_t milliSecs)
 }
 void        MultimediaStream::Init                      ()
 {
-    this->dashMetrics   = new DASHMetrics(8);
+    this->dashMetrics   = new DASHMetrics(1);
     this->dashManager   = new DASHManager(this->segmentBufferSize, this, this->mpd, this->dashMetrics);
     this->frameBuffer   = new Buffer<QImage>(this->frameBufferSize, libdash::framework::buffer::VIDEO);
     this->sampleBuffer  = new Buffer<AudioChunk>(this->sampleBufferSize, libdash::framework::buffer::AUDIO);
