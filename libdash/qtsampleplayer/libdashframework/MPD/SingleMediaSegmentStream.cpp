@@ -18,22 +18,71 @@ SingleMediaSegmentStream::SingleMediaSegmentStream      (IMPD *mpd, IPeriod *per
                           AbstractRepresentationStream  (mpd, period, adaptationSet, representation)
 {
     this->baseUrls = BaseUrlResolver::ResolveBaseUrl(mpd, period, adaptationSet, 0, 0, 0);
+    this->segList.push_back(this->representation->GetBaseURLs().at(0)->ToMediaSegment(baseUrls));
 }
 SingleMediaSegmentStream::~SingleMediaSegmentStream     ()
 {
+    for (auto x : this->segList) {
+        if (x) {
+            delete x;
+            x = NULL;
+        }
+    }
 }
+
+void SingleMediaSegmentStream::SetSegList(const std::vector<Cue>& cues,
+                                          uint64_t segmentStart,
+                                          uint64_t segmentEnd,
+                                          uint64_t segmentDuration,
+                                          uint64_t timescale) {
+    // clear seglist
+    for(auto it = this->segList.begin(); it != this->segList.end();) {
+        delete *it;
+        it = this->segList.erase(it);
+    }
+     
+    timescale = 1000000000 / timescale;
+    // generate seglist
+    for (int i = 0; i < cues.size(); ++i) {
+        ISegment* seg = this->representation->GetBaseURLs().at(0)->ToMediaSegment(baseUrls);
+        
+        int start = cues[i].cue_pos + segmentStart;
+        int end;
+        if (i != cues.size() - 1) {
+            seg->SetSegDuration( (float)(cues[i + 1].cue_time - cues[i].cue_time) / timescale );
+            // std::cout <<  (float)(cues[i + 1].cue_time - cues[i].cue_time) / timescale << " " << timescale << std::endl;
+            end = cues[i + 1].cue_pos + segmentStart - 1;
+        } else {
+            seg->SetSegDuration( (float)(segmentDuration - cues[i].cue_time) / timescale );
+            end = segmentEnd - 1;
+        }
+        seg->Range(std::to_string(start) + "-" + std::to_string(end));
+        
+        this->segList.push_back(seg);
+    }
+}
+
+ISegment* SingleMediaSegmentStream::GetIndexRangeSegment() {
+    ISegment* seg = this->representation->GetBaseURLs().at(0)->ToMediaSegment(baseUrls);
+    seg->Range(this->representation->GetSegmentBase()->GetIndexRange());
+    return seg;
+}
+
 ISegment*                   SingleMediaSegmentStream::GetInitializationSegment      ()
 {
     if (this->representation->GetSegmentBase())
     {
         /* TODO: check whether @sourceURL and/or @range is available in SegmentBase.Initialization, see Table 13 */
-
-        if (this->representation->GetSegmentBase()->GetInitialization())
-            return this->representation->GetSegmentBase()->GetInitialization()->ToSegment(baseUrls);
+        IURLType* init = this->representation->GetSegmentBase()->GetInitialization();
+        if (init->GetSourceURL() == "") {
+           init->SetSourceURL(this->representation->GetBaseURLs().at(0)->GetUrl()); 
+        }
+        return init->ToSegment(baseUrls);
     }
 
     return NULL;
 }
+
 ISegment*                   SingleMediaSegmentStream::GetIndexSegment               (size_t segmentNumber)
 {
     /* segmentNumber is not used in this case */
@@ -45,13 +94,19 @@ ISegment*                   SingleMediaSegmentStream::GetIndexSegment           
 
     return NULL;
 }
+
 ISegment*                   SingleMediaSegmentStream::GetMediaSegment               (size_t segmentNumber)
 {
-    /* segmentNumber equals the desired BaseUrl */
+    return segmentNumber >= this->segList.size() ? NULL : this->segList[segmentNumber];
+    /*
+    if (segmentNumber > 0) {
+        return NULL;
+    }
     if (this->representation->GetBaseURLs().size() > segmentNumber)
         return this->representation->GetBaseURLs().at(segmentNumber)->ToMediaSegment(baseUrls);
-
+    
     return this->representation->GetBaseURLs().at(0)->ToMediaSegment(baseUrls);
+    */
 }
 ISegment*                   SingleMediaSegmentStream::GetBitstreamSwitchingSegment  ()
 {

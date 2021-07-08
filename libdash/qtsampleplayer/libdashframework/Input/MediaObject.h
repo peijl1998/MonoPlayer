@@ -33,6 +33,7 @@ namespace libdash
                     bool                        StartDownload       ();
                     void                        AbortDownload       ();
                     void                        WaitFinished        ();
+                    std::vector<uint8_t>        PeekAll             ();
                     int                         Read                (uint8_t *data, size_t len);
                     int                         Peek                (uint8_t *data, size_t len);
                     int                         Peek                (uint8_t *data, size_t len, size_t offset);

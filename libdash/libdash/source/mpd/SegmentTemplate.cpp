@@ -155,7 +155,7 @@ float SegmentTemplate::GetSegDuration() const {
 ISegment*           SegmentTemplate::ToSegment                      (const std::string& uri, const std::vector<IBaseUrl *>& baseurls, const std::string& representationID, uint32_t bandwidth, HTTPTransactionType type, uint32_t number, uint32_t time) const
 {
     Segment *seg = new Segment();
-    seg->SetDuration(this->GetSegDuration());
+    seg->SetSegDuration(this->GetSegDuration());
     if(seg->Init(baseurls, ReplaceParameters(uri, representationID, bandwidth, number, time), "", type))
         return seg;
 

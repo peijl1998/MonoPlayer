@@ -55,8 +55,8 @@ const block_t*  SyncedBlockStream::GetBytes           (uint32_t len)
 {
     EnterCriticalSection(&this->monitorMutex);
 
-    // while(this->length == 0 && !this->eos)
-    while(!this->eos)
+    while(this->length == 0 && !this->eos)
+    // while(!this->eos)
         SleepConditionVariableCS(&this->full, &this->monitorMutex, INFINITE);
 
     if(this->length == 0)
@@ -74,7 +74,8 @@ size_t          SyncedBlockStream::GetBytes           (uint8_t *data, size_t len
 {
     EnterCriticalSection(&this->monitorMutex);
 
-    while(this->length == 0 && !this->eos)
+    // while(this->length == 0 && !this->eos)
+    while(!this->eos)
         SleepConditionVariableCS(&this->full, &this->monitorMutex, INFINITE);
 
     if(this->length == 0)

@@ -75,7 +75,6 @@ bool                        Path::GetHostPortAndPath    (const std::string &url,
 bool                        Path::GetStartAndEndBytes   (const std::string &byteRange, size_t &startByte, size_t &endByte)
 {
     size_t found = 0;
-
     found = byteRange.find('-');
     if (found != std::string::npos && found < byteRange.size()-1 )
     {

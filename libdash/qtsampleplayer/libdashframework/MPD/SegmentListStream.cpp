@@ -41,7 +41,7 @@ ISegment*                   SegmentListStream::GetMediaSegment              (siz
 {
     if (this->segmentList->GetSegmentURLs().size() > segmentNumber) {
         ISegment* seg = this->segmentList->GetSegmentURLs().at(segmentNumber)->ToMediaSegment(this->baseUrls);
-        seg->SetDuration(this->segmentList->GetSegDuration());
+        seg->SetSegDuration(this->segmentList->GetSegDuration());
         return seg;
     }
 

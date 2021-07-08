@@ -785,9 +785,561 @@ CMakeFiles/qtsampleplayer.dir/main.cpp.o.provides: CMakeFiles/qtsampleplayer.dir
 CMakeFiles/qtsampleplayer.dir/main.cpp.o.provides.build: CMakeFiles/qtsampleplayer.dir/main.cpp.o
 
 
+CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o: ../Parser/src/SimpleWebmParser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/SimpleWebmParser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/SimpleWebmParser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/SimpleWebmParser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o: ../Parser/src/ancestory.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/ancestory.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/ancestory.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/ancestory.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o: ../Parser/src/bit_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/bit_utils.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/bit_utils.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/bit_utils.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o: ../Parser/src/block_header_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/block_header_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/block_header_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/block_header_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o: ../Parser/src/block_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/block_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/block_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/block_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o: ../Parser/src/buffer_reader.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/buffer_reader.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/buffer_reader.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/buffer_reader.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o: ../Parser/src/callback.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/callback.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/callback.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/callback.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o: ../Parser/src/date_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/date_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/date_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/date_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o: ../Parser/src/file_reader.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/file_reader.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/file_reader.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/file_reader.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o: ../Parser/src/float_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/float_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/float_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/float_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o: ../Parser/src/id_element_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/id_element_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/id_element_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/id_element_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o: ../Parser/src/id_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/id_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/id_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/id_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o: ../Parser/src/istream_reader.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/istream_reader.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/istream_reader.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/istream_reader.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o: ../Parser/src/master_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/master_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/master_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/master_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o: ../Parser/src/parser_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/parser_utils.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/parser_utils.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/parser_utils.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o: ../Parser/src/segment_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/segment_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/segment_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/segment_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o: ../Parser/src/size_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/size_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/size_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/size_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o: ../Parser/src/skip_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/skip_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/skip_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/skip_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o: ../Parser/src/unknown_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/unknown_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/unknown_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/unknown_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o: ../Parser/src/var_int_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/var_int_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/var_int_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/var_int_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o: ../Parser/src/virtual_block_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/virtual_block_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/virtual_block_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/virtual_block_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o: ../Parser/src/void_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/void_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/void_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/void_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o
+
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o: CMakeFiles/qtsampleplayer.dir/flags.make
+CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o: ../Parser/src/webm_parser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/webm_parser.cc
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/webm_parser.cc > CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.i
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/Parser/src/webm_parser.cc -o CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.s
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o.requires:
+
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o.requires
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o.provides: CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o.requires
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o.provides.build
+.PHONY : CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o.provides
+
+CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o.provides.build: CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o
+
+
 CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o: qrc_qtsampleplayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/qrc_qtsampleplayer.cpp
 
 CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.i: cmake_force
@@ -811,7 +1363,7 @@ CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: CMakeFiles/qtsampleplayer.dir/flags.make
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o: qtsampleplayer_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o -c /home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/qtsampleplayer_autogen/mocs_compilation.cpp
 
 CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.i: cmake_force
@@ -865,6 +1417,29 @@ qtsampleplayer_OBJECTS = \
 "CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o" \
 "CMakeFiles/qtsampleplayer.dir/UI/QtSamplePlayerGui.cpp.o" \
 "CMakeFiles/qtsampleplayer.dir/main.cpp.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o" \
+"CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o" \
 "CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o" \
 "CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o"
 
@@ -901,6 +1476,29 @@ qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Renderer/QTGLRenderer.cpp.o
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/UI/QtSamplePlayerGui.cpp.o
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/main.cpp.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o
+qtsampleplayer: CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/build.make
@@ -918,7 +1516,7 @@ qtsampleplayer: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
 qtsampleplayer: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
 qtsampleplayer: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 qtsampleplayer: CMakeFiles/qtsampleplayer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable qtsampleplayer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX executable qtsampleplayer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtsampleplayer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -956,6 +1554,29 @@ CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Renderer/Q
 CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/UI/DASHPlayer.cpp.o.requires
 CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/UI/QtSamplePlayerGui.cpp.o.requires
 CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/main.cpp.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o.requires
+CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o.requires
 CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/qrc_qtsampleplayer.cpp.o.requires
 CMakeFiles/qtsampleplayer.dir/requires: CMakeFiles/qtsampleplayer.dir/qtsampleplayer_autogen/mocs_compilation.cpp.o.requires
 

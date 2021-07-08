@@ -53,10 +53,11 @@ bool    AbstractChunk::StartDownload                ()
     curl_easy_setopt(this->curl, CURLOPT_DEBUGFUNCTION, CurlDebugCallback);
     curl_easy_setopt(this->curl, CURLOPT_DEBUGDATA, (void *)this);
     curl_easy_setopt(this->curl, CURLOPT_FAILONERROR, true);
-
-    if(this->HasByteRange())
+    
+    if(this->HasByteRange()) {
         curl_easy_setopt(this->curl, CURLOPT_RANGE, this->Range().c_str());
-
+    }
+    
     this->dlThread = CreateThreadPortable (DownloadInternalConnection, this);
 
     if(this->dlThread == NULL)
@@ -95,7 +96,7 @@ int     AbstractChunk::Read                         (uint8_t *data, size_t len)
     //     SleepConditionVariableCS(&this->stateChanged, &this->stateLock, INFINITE);
     // LeaveCriticalSection(&this->stateLock);
     auto ret = this->blockStream.GetBytes(data, len); 
-    // std::cout << "[BUPT DEBUG][AC.cpp] Read after, complete=" << (this->stateManager.State() == COMPLETED ? "true" : "false") << std::endl;
+    // std::cout << "[BUPT DEBUG][AC.cpp] Read after, complete=" << (this->stateManager.State() == COMPLETED ? "true" : "false") << " " << this->AbsoluteURI() << std::endl;
     return ret;
 }
 int     AbstractChunk::Peek                         (uint8_t *data, size_t len)
@@ -163,10 +164,8 @@ void*   AbstractChunk::DownloadInternalConnection   (void *abstractchunk)
     AbstractChunk *chunk  = (AbstractChunk *) abstractchunk;
     extra_cost_us = 0;
     chunk->response = curl_easy_perform(chunk->curl);
-
     curl_easy_cleanup(chunk->curl);
     curl_global_cleanup();
-
     if(chunk->stateManager.State() == REQUEST_ABORT)
         chunk->stateManager.State(ABORTED);
     else {
@@ -180,7 +179,7 @@ void*   AbstractChunk::DownloadInternalConnection   (void *abstractchunk)
                       <<" recv=" << tmp->ResponseReceivedTime() << " fin=" << tmp->DownloadFinishedTime() \
                       << "recv_byte= " << tmp->ReceivedBytes() << " ac download= " << chunk->bytesDownloaded << std::endl; 
         }*/
-        
+        // std::cout << "AC.cpp download succ: " << chunk->AbsoluteURI() << " " << chunk->Range() << std::endl;
         chunk->stateManager.State(COMPLETED);
     }
 
@@ -210,7 +209,7 @@ size_t  AbstractChunk::CurlResponseCallback         (void *contents, size_t size
     HTTPTransaction *httpTransaction = chunk->httpTransactions.at(chunk->httpTransactions.size() - 1);
     httpTransaction->AddReceivedBytes(realsize);
 
-
+    // std::cout << chunk->AbsoluteURI() << " " << realsize << std::endl;
     chunk->bytesDownloaded += realsize;
     // chunk->NotifyDownloadRateChanged();
     extra_cost_us += clock() - t1;
@@ -244,7 +243,9 @@ void    AbstractChunk::HandleHeaderOutCallback      ()
     httpTransaction->SetRange(this->Range());
     httpTransaction->SetType(this->GetType());
     httpTransaction->SetRequestSentTime(Time::GetCurrentUTCTimeInMilliSec());
-    // std::cout << "[BUPT DEBUG][libdash/AbstractChunk.cpp] dowloading " << this->AbsoluteURI() <<  std::endl;
+    // if (this->HasByteRange()) {
+    //     std::cout << "[BUPT DEBUG][libdash/AbstractChunk.cpp] dowloading " << this->AbsoluteURI() <<  " range=" << this->Range() << std::endl;
+    // }
     this->httpTransactions.push_back(httpTransaction);
 }
 void    AbstractChunk::HandleHeaderInCallback       (std::string data)

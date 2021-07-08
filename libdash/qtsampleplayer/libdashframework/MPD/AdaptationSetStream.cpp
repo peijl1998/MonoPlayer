@@ -68,12 +68,36 @@ RepresentationStreamType    AdaptationSetStream::DetermineRepresentationStreamTy
 
     return libdash::framework::mpd::UNDEFINED;
 }
+
+StreamContentType AdaptationSetStream::DetermineRepresentationStreamContentType(IRepresentation* representation) {
+    std::string mimeType = representation->GetMimeType();
+    
+    // cuz len("video") == 5 and len("audio") == 5
+    if (mimeType.size() <= 5) {
+        mimeType = adaptationSet->GetMimeType();
+    }
+    if (mimeType.size() > 5) {
+        if (mimeType == "video/webm") {
+            return WEBM_VIDEO;
+        } else if (mimeType == "audio/webm") {
+            return WEBM_AUDIO;
+        } else if (mimeType.substr(0, 5) == "video") {
+            return VIDEO;
+        } else if (mimeType.substr(0, 5) == "audio") {
+            return AUDIO;
+        }
+    }
+
+    return UNKNOWN;
+}
 void                        AdaptationSetStream::Initialize()
 {
     for (size_t i = 0; i < adaptationSet->GetRepresentation().size(); i++)
     {
         IRepresentation *representation = adaptationSet->GetRepresentation().at(i);
         RepresentationStreamType type   = DetermineRepresentationStreamType(representation);
+        StreamContentType stream_content_type = DetermineRepresentationStreamContentType(representation);
         representations[representation] = RepresentationStreamFactory::Create(type, mpd, period, adaptationSet, representation);
+        representations[representation]->SetStreamContentType(stream_content_type);
     }
 }

@@ -42,6 +42,20 @@ float MediaObject::GetSegDuration() {
     return this->segment->GetSegDuration();    
 }
 
+std::vector<uint8_t> MediaObject::PeekAll() {
+    int len = this->segment->GetEndByte() - this->segment->GetStartByte() + 1;
+    uint8_t* data = (uint8_t*)malloc(sizeof(uint8_t) * len); 
+    this->segment->Peek(data, len);
+    
+    std::vector<uint8_t> vec;
+    for (int i = 0; i < len; ++i) {
+        vec.emplace_back(*(data + i));
+    }
+
+    free(data);
+    return vec;
+}
+
 bool                MediaObject::StartDownload          ()
 {
     this->segment->AttachDownloadObserver(this);

@@ -41,7 +41,7 @@ namespace dash
                  *  Returns a pointer to a dash::mpd::IURLType object that specifies the URL including a possible byte range for the Initialization Segment.
                  *  @return     a pointer to dash::mpd::IURLType object
                  */
-                virtual const IURLType*     GetInitialization           ()  const = 0;
+                virtual IURLType*     GetInitialization           ()  const = 0;
 
                 /**
                  *  Returns a pointer to a dash::mpd::IURLType object that specifies the URL including a possible byte range for the Representation Index Segment.

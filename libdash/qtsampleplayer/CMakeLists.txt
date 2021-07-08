@@ -28,10 +28,12 @@ find_package(LibAV REQUIRED)
 set(LIBDASH_LIBRARIES "../build/bin/" CACHE PATH "Path to libdash.so")
 set(LIBDASH_INCLUDES "../libdash/include/" CACHE PATH "Path to libdash includes")
 
+include_directories("./Parser/include/")
+include_directories("./Parser/")
 include_directories(${LIBDASH_INCLUDES})
 link_directories(${LIBDASH_LIBRARIES})
 
-file(GLOB qtplayer_SOURCE RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} Decoder/*.cpp libdashframework/MPD/*.cpp libdashframework/Adaptation/*.cpp libdashframework/Buffer/*.cpp libdashframework/Input/*.cpp libdashframework/Portable/*.cpp Managers/*.cpp Renderer/*.cpp UI/*.cpp UI/IDASHPlayerGuiObserver.h main.cpp)
+file(GLOB qtplayer_SOURCE RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} Decoder/*.cpp libdashframework/MPD/*.cpp libdashframework/Adaptation/*.cpp libdashframework/Buffer/*.cpp libdashframework/Input/*.cpp libdashframework/Portable/*.cpp Managers/*.cpp Renderer/*.cpp UI/*.cpp UI/IDASHPlayerGuiObserver.h main.cpp Parser/src/*.cc)
 
 qt5_wrap_ui(qtsampleplayer_FORMS_HEADERS qtsampleplayer.ui)
 qt5_add_resources(qtsampleplayer_RESOURCES_RCC qtsampleplayer.qrc)

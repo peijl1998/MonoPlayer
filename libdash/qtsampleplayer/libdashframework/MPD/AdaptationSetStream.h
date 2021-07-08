@@ -36,6 +36,7 @@ namespace libdash
 
                 private:
                     RepresentationStreamType    DetermineRepresentationStreamType   (dash::mpd::IRepresentation *representation);
+                    StreamContentType           DetermineRepresentationStreamContentType (dash::mpd::IRepresentation *representation);
                     void                        Initialize                          ();
 
                     std::map<dash::mpd::IRepresentation *, IRepresentationStream *> representations;

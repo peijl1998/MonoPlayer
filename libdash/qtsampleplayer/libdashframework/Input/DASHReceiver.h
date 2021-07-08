@@ -52,8 +52,8 @@ namespace libdash
                     void            NotifySegmentDownloaded (MediaObject * media);
                     void            DownloadInitSegment     (dash::mpd::IRepresentation* rep);
                     bool            InitSegmentExists       (dash::mpd::IRepresentation* rep);
-
                     static void*    DoBuffering             (void *receiver);
+                    void GenerateSegList(dash::mpd::IRepresentation* rep);
 
                     std::map<dash::mpd::IRepresentation*, MediaObject*> initSegments;
                     buffer::MediaObjectBuffer                           *buffer;

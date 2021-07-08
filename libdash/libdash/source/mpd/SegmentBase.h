@@ -28,7 +28,7 @@ namespace dash
                 SegmentBase             ();
                 virtual ~SegmentBase    ();
 
-                const IURLType*     GetInitialization           ()  const;
+                IURLType*     GetInitialization           ()  const;
                 const IURLType*     GetRepresentationIndex      ()  const;
                 uint32_t            GetTimescale                ()  const;
                 uint32_t            GetPresentationTimeOffset   ()  const;

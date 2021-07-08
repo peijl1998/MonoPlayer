@@ -27,12 +27,14 @@ namespace libdash
                 public:
                     SingleMediaSegmentStream           (dash::mpd::IMPD *mpd, dash::mpd::IPeriod *period, dash::mpd::IAdaptationSet *adaptationSet, dash::mpd::IRepresentation *representation);
                     virtual ~SingleMediaSegmentStream  ();
-
+                    virtual dash::mpd::ISegment*        GetIndexRangeSegment            ();
                     virtual dash::mpd::ISegment*        GetInitializationSegment        ();
                     virtual dash::mpd::ISegment*        GetIndexSegment                 (size_t segmentNumber);
                     virtual dash::mpd::ISegment*        GetMediaSegment                 (size_t segmentNumber);
                     virtual dash::mpd::ISegment*        GetBitstreamSwitchingSegment    ();
                     virtual RepresentationStreamType    GetStreamType                   ();
+                    virtual void SetSegList(const std::vector<Cue>& cues, uint64_t segmentStart, uint64_t segmentEnd,
+                                            uint64_t segmentDuration, uint64_t timescale);
 
                     virtual uint32_t                    GetFirstSegmentNumber           ();
                     virtual uint32_t                    GetCurrentSegmentNumber         ();

@@ -11,6 +11,7 @@
 
 #include "DASHReceiver.h"
 #include "IDASHMetrics.h"
+#include "../../Parser/src/SimpleWebmParser.h"
 #include <unistd.h>
 
 using namespace dash::metrics;
@@ -181,7 +182,8 @@ void                        DASHReceiver::SetRepresentation         (IPeriod *pe
     }
 
     this->representationStream  = this->adaptationSetStream->GetRepresentationStream(this->representation);
-    this->DownloadInitSegment(this->representation);
+    
+    this->DownloadInitSegment(this->GetRepresentation());
 
     if (periodChanged)
     {
@@ -220,6 +222,17 @@ void                        DASHReceiver::NotifySegmentDownloaded   (MediaObject
 }
 void                        DASHReceiver::DownloadInitSegment    (IRepresentation* rep)
 {
+    StreamContentType stream_content_type = this->representationStream->GetStreamContentType();
+
+    // TODO: It's better to confirm that it's segmentbase strem.
+    // if (stream_content_type == WEBM_VIDEO || stream_content_type == WEBM_AUDIO) {
+    if (false) {
+        // std::cout << "webm_video?" << (stream_content_type == WEBM_VIDEO ? "true" : "false") \
+        //           << " webm_audio?" << (stream_content_type == WEBM_AUDIO ? "true" : "false") \
+        //           << std::endl;
+        this->GenerateSegList(this->GetRepresentation());
+        return ;
+    } 
     if (this->InitSegmentExists(rep))
         return;
 
@@ -244,7 +257,7 @@ bool                        DASHReceiver::InitSegmentExists      (IRepresentatio
 void*                       DASHReceiver::DoBuffering               (void *receiver)
 {
     DASHReceiver *dashReceiver = (DASHReceiver *) receiver;
-
+    
     dashReceiver->DownloadInitSegment(dashReceiver->GetRepresentation());
 
     MediaObject *media = dashReceiver->GetNextSegment();
@@ -254,10 +267,9 @@ void*                       DASHReceiver::DoBuffering               (void *recei
         // std::cout << "[BUPT DEBUG][qt/DASHReceiver.cpp] buffer level=" \
         //           << dashReceiver->buffer->BufferLevel() << " full=" \ 
         //           << (dashReceiver->buffer->Full() ? "true": "false") << std::endl;
-
         if (!dashReceiver->buffer->Full()) {
             media->StartDownload();
-
+            
             if (!dashReceiver->buffer->PushBack(media))
                 return NULL;
 
@@ -273,4 +285,56 @@ void*                       DASHReceiver::DoBuffering               (void *recei
 
     dashReceiver->buffer->SetEOS(true);
     return NULL;
+}
+
+void DASHReceiver::GenerateSegList(IRepresentation* rep) {
+    // that means the seg list has been stored.
+    if (this->InitSegmentExists(rep)) {
+        return;
+    };
+
+    // Get init seg and indexRange seg
+    MediaObject *initSeg = NULL;
+    initSeg = this->GetInitSegment();
+    if (!initSeg) {
+        std::cout << "[BUPT ERROR][qt/DASHReceiver.cpp] InitSeg doesn't exists." << std::endl;
+        return ;
+    }
+    initSeg->StartDownload();
+    this->initSegments[rep] = initSeg;//NULL;
+    
+    ISegment* seg = NULL;
+    MediaObject* indexSeg = NULL;
+    seg = this->representationStream->GetIndexRangeSegment();
+    if (seg != NULL) {
+        indexSeg = new MediaObject(seg, this->representation);
+    }
+    if (!indexSeg) {
+        std::cout << "[BUPT ERROR][qt/DASHReceiver.cpp] IndexSeg doesn't exists." << std::endl;
+        return ;
+    }
+    indexSeg->StartDownload();
+    
+    // Wait for downloading...
+    initSeg->WaitFinished();
+    indexSeg->WaitFinished();
+
+    // Parse webm
+    SimpleWebmParser parser;
+    parser.Parse(initSeg->PeekAll());
+    uint64_t start = parser.GetSegmentStart();
+    uint64_t end = parser.GetSegmentEnd();
+    uint64_t duration = parser.GetInfoDuration();
+    uint64_t timescale = parser.GetInfoTimescale();
+     
+    parser.Reset();
+    parser.Parse(indexSeg->PeekAll());
+
+    // Generate seglist
+    const std::vector<Cue>& cues = parser.GetCues();
+    this->representationStream->SetSegList(cues,
+                                           start,
+                                           end,
+                                           duration,
+                                           timescale);
 }

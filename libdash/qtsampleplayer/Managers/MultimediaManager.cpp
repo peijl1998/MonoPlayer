@@ -19,8 +19,8 @@ using namespace sampleplayer::renderer;
 using namespace dash::mpd;
 
 // unit: second
-#define VIDEO_SEGMENTBUFFER_SIZE 30
-#define AUDIO_SEGMENTBUFFER_SIZE 32768
+#define VIDEO_SEGMENTBUFFER_SIZE 10
+#define AUDIO_SEGMENTBUFFER_SIZE 20000
 
 MultimediaManager::MultimediaManager            (QTGLRenderer *videoElement, QTAudioRenderer *audioElement) :
                    videoElement                 (videoElement),
@@ -91,7 +91,7 @@ void    MultimediaManager::Start                            ()
         this->InitAudioPlayback(0);
         this->audioElement->StartPlayback();
         this->audioStream->Start();
-        // this->StartiAudioMonitorThread();
+        this->StartAudioMonitorThread();
         this->StartAudioRenderingThread();
     }
 
@@ -134,7 +134,7 @@ void    MultimediaManager::StopAudio                        ()
     {
         this->audioStream->Stop();
         this->StopAudioRenderingThread();
-        // this->StopMonitorThread("audio");
+        this->StopMonitorThread("audio");
 
         this->audioElement->StopPlayback();
 
@@ -331,7 +331,6 @@ void*   MultimediaManager::RenderAudio        (void *data)
         if (samples)
         {
             manager->audioElement->WriteToBuffer(samples->Data(), samples->Length());
-
             PortableSleep(1 / manager->frameRate);
 
             delete samples;
@@ -407,12 +406,11 @@ void MultimediaManager::Monitor(MultimediaManager* manager, const std::string& t
     logic->SetMetrics(metrics);
     while (*EoM) {
         stream->UpdateMetrics();
-        // metrics = stream->GetMetrics();
         std::cout << "[BUPT DEBUG][qt/MultimediaManager.cpp] StreamType=" << type \
-                  << " Buffer Level=" << metrics->GetBufferLevel() \
-                  << " AvgThroughput=" << metrics->GetThroughput() \
+                  << " Buffer Level=" << metrics->GetBufferLevel() << "s "\
+                  << " AvgThroughput=" << metrics->GetThroughput() * 8 << "Kbps " \
                   << " CurrentRepID=" << (*rep)->GetId() \
-                  << " CurrentRepBandwidth=" << (*rep)->GetBandwidth() << std::endl;
+                  << " CurrentRepBandwidth=" << (*rep)->GetBandwidth() << "bps" << std::endl;
         
         IRepresentation* target_rep = logic->GetRepresentation();
         if (target_rep->GetBandwidth() != (*rep)->GetBandwidth()) {
@@ -425,8 +423,7 @@ void MultimediaManager::Monitor(MultimediaManager* manager, const std::string& t
                 manager->SetAudioQuality(manager->period, manager->audioAdaptationSet, target_rep);
             }
         }
-
-        PortableSleep(0.5);        
+        PortableSleep(1);        
     }
 }
 

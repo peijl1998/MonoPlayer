@@ -217,6 +217,627 @@ Managers/MultimediaStream.cpp.s:
 	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Managers/MultimediaStream.cpp.s
 .PHONY : Managers/MultimediaStream.cpp.s
 
+Parser/src/SimpleWebmParser.o: Parser/src/SimpleWebmParser.cc.o
+
+.PHONY : Parser/src/SimpleWebmParser.o
+
+# target to build an object file
+Parser/src/SimpleWebmParser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.o
+.PHONY : Parser/src/SimpleWebmParser.cc.o
+
+Parser/src/SimpleWebmParser.i: Parser/src/SimpleWebmParser.cc.i
+
+.PHONY : Parser/src/SimpleWebmParser.i
+
+# target to preprocess a source file
+Parser/src/SimpleWebmParser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.i
+.PHONY : Parser/src/SimpleWebmParser.cc.i
+
+Parser/src/SimpleWebmParser.s: Parser/src/SimpleWebmParser.cc.s
+
+.PHONY : Parser/src/SimpleWebmParser.s
+
+# target to generate assembly for a file
+Parser/src/SimpleWebmParser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/SimpleWebmParser.cc.s
+.PHONY : Parser/src/SimpleWebmParser.cc.s
+
+Parser/src/ancestory.o: Parser/src/ancestory.cc.o
+
+.PHONY : Parser/src/ancestory.o
+
+# target to build an object file
+Parser/src/ancestory.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.o
+.PHONY : Parser/src/ancestory.cc.o
+
+Parser/src/ancestory.i: Parser/src/ancestory.cc.i
+
+.PHONY : Parser/src/ancestory.i
+
+# target to preprocess a source file
+Parser/src/ancestory.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.i
+.PHONY : Parser/src/ancestory.cc.i
+
+Parser/src/ancestory.s: Parser/src/ancestory.cc.s
+
+.PHONY : Parser/src/ancestory.s
+
+# target to generate assembly for a file
+Parser/src/ancestory.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/ancestory.cc.s
+.PHONY : Parser/src/ancestory.cc.s
+
+Parser/src/bit_utils.o: Parser/src/bit_utils.cc.o
+
+.PHONY : Parser/src/bit_utils.o
+
+# target to build an object file
+Parser/src/bit_utils.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.o
+.PHONY : Parser/src/bit_utils.cc.o
+
+Parser/src/bit_utils.i: Parser/src/bit_utils.cc.i
+
+.PHONY : Parser/src/bit_utils.i
+
+# target to preprocess a source file
+Parser/src/bit_utils.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.i
+.PHONY : Parser/src/bit_utils.cc.i
+
+Parser/src/bit_utils.s: Parser/src/bit_utils.cc.s
+
+.PHONY : Parser/src/bit_utils.s
+
+# target to generate assembly for a file
+Parser/src/bit_utils.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/bit_utils.cc.s
+.PHONY : Parser/src/bit_utils.cc.s
+
+Parser/src/block_header_parser.o: Parser/src/block_header_parser.cc.o
+
+.PHONY : Parser/src/block_header_parser.o
+
+# target to build an object file
+Parser/src/block_header_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.o
+.PHONY : Parser/src/block_header_parser.cc.o
+
+Parser/src/block_header_parser.i: Parser/src/block_header_parser.cc.i
+
+.PHONY : Parser/src/block_header_parser.i
+
+# target to preprocess a source file
+Parser/src/block_header_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.i
+.PHONY : Parser/src/block_header_parser.cc.i
+
+Parser/src/block_header_parser.s: Parser/src/block_header_parser.cc.s
+
+.PHONY : Parser/src/block_header_parser.s
+
+# target to generate assembly for a file
+Parser/src/block_header_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/block_header_parser.cc.s
+.PHONY : Parser/src/block_header_parser.cc.s
+
+Parser/src/block_parser.o: Parser/src/block_parser.cc.o
+
+.PHONY : Parser/src/block_parser.o
+
+# target to build an object file
+Parser/src/block_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.o
+.PHONY : Parser/src/block_parser.cc.o
+
+Parser/src/block_parser.i: Parser/src/block_parser.cc.i
+
+.PHONY : Parser/src/block_parser.i
+
+# target to preprocess a source file
+Parser/src/block_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.i
+.PHONY : Parser/src/block_parser.cc.i
+
+Parser/src/block_parser.s: Parser/src/block_parser.cc.s
+
+.PHONY : Parser/src/block_parser.s
+
+# target to generate assembly for a file
+Parser/src/block_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/block_parser.cc.s
+.PHONY : Parser/src/block_parser.cc.s
+
+Parser/src/buffer_reader.o: Parser/src/buffer_reader.cc.o
+
+.PHONY : Parser/src/buffer_reader.o
+
+# target to build an object file
+Parser/src/buffer_reader.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.o
+.PHONY : Parser/src/buffer_reader.cc.o
+
+Parser/src/buffer_reader.i: Parser/src/buffer_reader.cc.i
+
+.PHONY : Parser/src/buffer_reader.i
+
+# target to preprocess a source file
+Parser/src/buffer_reader.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.i
+.PHONY : Parser/src/buffer_reader.cc.i
+
+Parser/src/buffer_reader.s: Parser/src/buffer_reader.cc.s
+
+.PHONY : Parser/src/buffer_reader.s
+
+# target to generate assembly for a file
+Parser/src/buffer_reader.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/buffer_reader.cc.s
+.PHONY : Parser/src/buffer_reader.cc.s
+
+Parser/src/callback.o: Parser/src/callback.cc.o
+
+.PHONY : Parser/src/callback.o
+
+# target to build an object file
+Parser/src/callback.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.o
+.PHONY : Parser/src/callback.cc.o
+
+Parser/src/callback.i: Parser/src/callback.cc.i
+
+.PHONY : Parser/src/callback.i
+
+# target to preprocess a source file
+Parser/src/callback.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.i
+.PHONY : Parser/src/callback.cc.i
+
+Parser/src/callback.s: Parser/src/callback.cc.s
+
+.PHONY : Parser/src/callback.s
+
+# target to generate assembly for a file
+Parser/src/callback.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/callback.cc.s
+.PHONY : Parser/src/callback.cc.s
+
+Parser/src/date_parser.o: Parser/src/date_parser.cc.o
+
+.PHONY : Parser/src/date_parser.o
+
+# target to build an object file
+Parser/src/date_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.o
+.PHONY : Parser/src/date_parser.cc.o
+
+Parser/src/date_parser.i: Parser/src/date_parser.cc.i
+
+.PHONY : Parser/src/date_parser.i
+
+# target to preprocess a source file
+Parser/src/date_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.i
+.PHONY : Parser/src/date_parser.cc.i
+
+Parser/src/date_parser.s: Parser/src/date_parser.cc.s
+
+.PHONY : Parser/src/date_parser.s
+
+# target to generate assembly for a file
+Parser/src/date_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/date_parser.cc.s
+.PHONY : Parser/src/date_parser.cc.s
+
+Parser/src/file_reader.o: Parser/src/file_reader.cc.o
+
+.PHONY : Parser/src/file_reader.o
+
+# target to build an object file
+Parser/src/file_reader.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.o
+.PHONY : Parser/src/file_reader.cc.o
+
+Parser/src/file_reader.i: Parser/src/file_reader.cc.i
+
+.PHONY : Parser/src/file_reader.i
+
+# target to preprocess a source file
+Parser/src/file_reader.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.i
+.PHONY : Parser/src/file_reader.cc.i
+
+Parser/src/file_reader.s: Parser/src/file_reader.cc.s
+
+.PHONY : Parser/src/file_reader.s
+
+# target to generate assembly for a file
+Parser/src/file_reader.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/file_reader.cc.s
+.PHONY : Parser/src/file_reader.cc.s
+
+Parser/src/float_parser.o: Parser/src/float_parser.cc.o
+
+.PHONY : Parser/src/float_parser.o
+
+# target to build an object file
+Parser/src/float_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.o
+.PHONY : Parser/src/float_parser.cc.o
+
+Parser/src/float_parser.i: Parser/src/float_parser.cc.i
+
+.PHONY : Parser/src/float_parser.i
+
+# target to preprocess a source file
+Parser/src/float_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.i
+.PHONY : Parser/src/float_parser.cc.i
+
+Parser/src/float_parser.s: Parser/src/float_parser.cc.s
+
+.PHONY : Parser/src/float_parser.s
+
+# target to generate assembly for a file
+Parser/src/float_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/float_parser.cc.s
+.PHONY : Parser/src/float_parser.cc.s
+
+Parser/src/id_element_parser.o: Parser/src/id_element_parser.cc.o
+
+.PHONY : Parser/src/id_element_parser.o
+
+# target to build an object file
+Parser/src/id_element_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.o
+.PHONY : Parser/src/id_element_parser.cc.o
+
+Parser/src/id_element_parser.i: Parser/src/id_element_parser.cc.i
+
+.PHONY : Parser/src/id_element_parser.i
+
+# target to preprocess a source file
+Parser/src/id_element_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.i
+.PHONY : Parser/src/id_element_parser.cc.i
+
+Parser/src/id_element_parser.s: Parser/src/id_element_parser.cc.s
+
+.PHONY : Parser/src/id_element_parser.s
+
+# target to generate assembly for a file
+Parser/src/id_element_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/id_element_parser.cc.s
+.PHONY : Parser/src/id_element_parser.cc.s
+
+Parser/src/id_parser.o: Parser/src/id_parser.cc.o
+
+.PHONY : Parser/src/id_parser.o
+
+# target to build an object file
+Parser/src/id_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.o
+.PHONY : Parser/src/id_parser.cc.o
+
+Parser/src/id_parser.i: Parser/src/id_parser.cc.i
+
+.PHONY : Parser/src/id_parser.i
+
+# target to preprocess a source file
+Parser/src/id_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.i
+.PHONY : Parser/src/id_parser.cc.i
+
+Parser/src/id_parser.s: Parser/src/id_parser.cc.s
+
+.PHONY : Parser/src/id_parser.s
+
+# target to generate assembly for a file
+Parser/src/id_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/id_parser.cc.s
+.PHONY : Parser/src/id_parser.cc.s
+
+Parser/src/istream_reader.o: Parser/src/istream_reader.cc.o
+
+.PHONY : Parser/src/istream_reader.o
+
+# target to build an object file
+Parser/src/istream_reader.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.o
+.PHONY : Parser/src/istream_reader.cc.o
+
+Parser/src/istream_reader.i: Parser/src/istream_reader.cc.i
+
+.PHONY : Parser/src/istream_reader.i
+
+# target to preprocess a source file
+Parser/src/istream_reader.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.i
+.PHONY : Parser/src/istream_reader.cc.i
+
+Parser/src/istream_reader.s: Parser/src/istream_reader.cc.s
+
+.PHONY : Parser/src/istream_reader.s
+
+# target to generate assembly for a file
+Parser/src/istream_reader.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/istream_reader.cc.s
+.PHONY : Parser/src/istream_reader.cc.s
+
+Parser/src/master_parser.o: Parser/src/master_parser.cc.o
+
+.PHONY : Parser/src/master_parser.o
+
+# target to build an object file
+Parser/src/master_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.o
+.PHONY : Parser/src/master_parser.cc.o
+
+Parser/src/master_parser.i: Parser/src/master_parser.cc.i
+
+.PHONY : Parser/src/master_parser.i
+
+# target to preprocess a source file
+Parser/src/master_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.i
+.PHONY : Parser/src/master_parser.cc.i
+
+Parser/src/master_parser.s: Parser/src/master_parser.cc.s
+
+.PHONY : Parser/src/master_parser.s
+
+# target to generate assembly for a file
+Parser/src/master_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/master_parser.cc.s
+.PHONY : Parser/src/master_parser.cc.s
+
+Parser/src/parser_utils.o: Parser/src/parser_utils.cc.o
+
+.PHONY : Parser/src/parser_utils.o
+
+# target to build an object file
+Parser/src/parser_utils.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.o
+.PHONY : Parser/src/parser_utils.cc.o
+
+Parser/src/parser_utils.i: Parser/src/parser_utils.cc.i
+
+.PHONY : Parser/src/parser_utils.i
+
+# target to preprocess a source file
+Parser/src/parser_utils.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.i
+.PHONY : Parser/src/parser_utils.cc.i
+
+Parser/src/parser_utils.s: Parser/src/parser_utils.cc.s
+
+.PHONY : Parser/src/parser_utils.s
+
+# target to generate assembly for a file
+Parser/src/parser_utils.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/parser_utils.cc.s
+.PHONY : Parser/src/parser_utils.cc.s
+
+Parser/src/segment_parser.o: Parser/src/segment_parser.cc.o
+
+.PHONY : Parser/src/segment_parser.o
+
+# target to build an object file
+Parser/src/segment_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.o
+.PHONY : Parser/src/segment_parser.cc.o
+
+Parser/src/segment_parser.i: Parser/src/segment_parser.cc.i
+
+.PHONY : Parser/src/segment_parser.i
+
+# target to preprocess a source file
+Parser/src/segment_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.i
+.PHONY : Parser/src/segment_parser.cc.i
+
+Parser/src/segment_parser.s: Parser/src/segment_parser.cc.s
+
+.PHONY : Parser/src/segment_parser.s
+
+# target to generate assembly for a file
+Parser/src/segment_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/segment_parser.cc.s
+.PHONY : Parser/src/segment_parser.cc.s
+
+Parser/src/size_parser.o: Parser/src/size_parser.cc.o
+
+.PHONY : Parser/src/size_parser.o
+
+# target to build an object file
+Parser/src/size_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.o
+.PHONY : Parser/src/size_parser.cc.o
+
+Parser/src/size_parser.i: Parser/src/size_parser.cc.i
+
+.PHONY : Parser/src/size_parser.i
+
+# target to preprocess a source file
+Parser/src/size_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.i
+.PHONY : Parser/src/size_parser.cc.i
+
+Parser/src/size_parser.s: Parser/src/size_parser.cc.s
+
+.PHONY : Parser/src/size_parser.s
+
+# target to generate assembly for a file
+Parser/src/size_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/size_parser.cc.s
+.PHONY : Parser/src/size_parser.cc.s
+
+Parser/src/skip_parser.o: Parser/src/skip_parser.cc.o
+
+.PHONY : Parser/src/skip_parser.o
+
+# target to build an object file
+Parser/src/skip_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.o
+.PHONY : Parser/src/skip_parser.cc.o
+
+Parser/src/skip_parser.i: Parser/src/skip_parser.cc.i
+
+.PHONY : Parser/src/skip_parser.i
+
+# target to preprocess a source file
+Parser/src/skip_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.i
+.PHONY : Parser/src/skip_parser.cc.i
+
+Parser/src/skip_parser.s: Parser/src/skip_parser.cc.s
+
+.PHONY : Parser/src/skip_parser.s
+
+# target to generate assembly for a file
+Parser/src/skip_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/skip_parser.cc.s
+.PHONY : Parser/src/skip_parser.cc.s
+
+Parser/src/unknown_parser.o: Parser/src/unknown_parser.cc.o
+
+.PHONY : Parser/src/unknown_parser.o
+
+# target to build an object file
+Parser/src/unknown_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.o
+.PHONY : Parser/src/unknown_parser.cc.o
+
+Parser/src/unknown_parser.i: Parser/src/unknown_parser.cc.i
+
+.PHONY : Parser/src/unknown_parser.i
+
+# target to preprocess a source file
+Parser/src/unknown_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.i
+.PHONY : Parser/src/unknown_parser.cc.i
+
+Parser/src/unknown_parser.s: Parser/src/unknown_parser.cc.s
+
+.PHONY : Parser/src/unknown_parser.s
+
+# target to generate assembly for a file
+Parser/src/unknown_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/unknown_parser.cc.s
+.PHONY : Parser/src/unknown_parser.cc.s
+
+Parser/src/var_int_parser.o: Parser/src/var_int_parser.cc.o
+
+.PHONY : Parser/src/var_int_parser.o
+
+# target to build an object file
+Parser/src/var_int_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.o
+.PHONY : Parser/src/var_int_parser.cc.o
+
+Parser/src/var_int_parser.i: Parser/src/var_int_parser.cc.i
+
+.PHONY : Parser/src/var_int_parser.i
+
+# target to preprocess a source file
+Parser/src/var_int_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.i
+.PHONY : Parser/src/var_int_parser.cc.i
+
+Parser/src/var_int_parser.s: Parser/src/var_int_parser.cc.s
+
+.PHONY : Parser/src/var_int_parser.s
+
+# target to generate assembly for a file
+Parser/src/var_int_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/var_int_parser.cc.s
+.PHONY : Parser/src/var_int_parser.cc.s
+
+Parser/src/virtual_block_parser.o: Parser/src/virtual_block_parser.cc.o
+
+.PHONY : Parser/src/virtual_block_parser.o
+
+# target to build an object file
+Parser/src/virtual_block_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.o
+.PHONY : Parser/src/virtual_block_parser.cc.o
+
+Parser/src/virtual_block_parser.i: Parser/src/virtual_block_parser.cc.i
+
+.PHONY : Parser/src/virtual_block_parser.i
+
+# target to preprocess a source file
+Parser/src/virtual_block_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.i
+.PHONY : Parser/src/virtual_block_parser.cc.i
+
+Parser/src/virtual_block_parser.s: Parser/src/virtual_block_parser.cc.s
+
+.PHONY : Parser/src/virtual_block_parser.s
+
+# target to generate assembly for a file
+Parser/src/virtual_block_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/virtual_block_parser.cc.s
+.PHONY : Parser/src/virtual_block_parser.cc.s
+
+Parser/src/void_parser.o: Parser/src/void_parser.cc.o
+
+.PHONY : Parser/src/void_parser.o
+
+# target to build an object file
+Parser/src/void_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.o
+.PHONY : Parser/src/void_parser.cc.o
+
+Parser/src/void_parser.i: Parser/src/void_parser.cc.i
+
+.PHONY : Parser/src/void_parser.i
+
+# target to preprocess a source file
+Parser/src/void_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.i
+.PHONY : Parser/src/void_parser.cc.i
+
+Parser/src/void_parser.s: Parser/src/void_parser.cc.s
+
+.PHONY : Parser/src/void_parser.s
+
+# target to generate assembly for a file
+Parser/src/void_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/void_parser.cc.s
+.PHONY : Parser/src/void_parser.cc.s
+
+Parser/src/webm_parser.o: Parser/src/webm_parser.cc.o
+
+.PHONY : Parser/src/webm_parser.o
+
+# target to build an object file
+Parser/src/webm_parser.cc.o:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.o
+.PHONY : Parser/src/webm_parser.cc.o
+
+Parser/src/webm_parser.i: Parser/src/webm_parser.cc.i
+
+.PHONY : Parser/src/webm_parser.i
+
+# target to preprocess a source file
+Parser/src/webm_parser.cc.i:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.i
+.PHONY : Parser/src/webm_parser.cc.i
+
+Parser/src/webm_parser.s: Parser/src/webm_parser.cc.s
+
+.PHONY : Parser/src/webm_parser.s
+
+# target to generate assembly for a file
+Parser/src/webm_parser.cc.s:
+	$(MAKE) -f CMakeFiles/qtsampleplayer.dir/build.make CMakeFiles/qtsampleplayer.dir/Parser/src/webm_parser.cc.s
+.PHONY : Parser/src/webm_parser.cc.s
+
 Renderer/QTAudioRenderer.o: Renderer/QTAudioRenderer.cpp.o
 
 .PHONY : Renderer/QTAudioRenderer.o
@@ -1019,6 +1640,75 @@ help:
 	@echo "... Managers/MultimediaStream.o"
 	@echo "... Managers/MultimediaStream.i"
 	@echo "... Managers/MultimediaStream.s"
+	@echo "... Parser/src/SimpleWebmParser.o"
+	@echo "... Parser/src/SimpleWebmParser.i"
+	@echo "... Parser/src/SimpleWebmParser.s"
+	@echo "... Parser/src/ancestory.o"
+	@echo "... Parser/src/ancestory.i"
+	@echo "... Parser/src/ancestory.s"
+	@echo "... Parser/src/bit_utils.o"
+	@echo "... Parser/src/bit_utils.i"
+	@echo "... Parser/src/bit_utils.s"
+	@echo "... Parser/src/block_header_parser.o"
+	@echo "... Parser/src/block_header_parser.i"
+	@echo "... Parser/src/block_header_parser.s"
+	@echo "... Parser/src/block_parser.o"
+	@echo "... Parser/src/block_parser.i"
+	@echo "... Parser/src/block_parser.s"
+	@echo "... Parser/src/buffer_reader.o"
+	@echo "... Parser/src/buffer_reader.i"
+	@echo "... Parser/src/buffer_reader.s"
+	@echo "... Parser/src/callback.o"
+	@echo "... Parser/src/callback.i"
+	@echo "... Parser/src/callback.s"
+	@echo "... Parser/src/date_parser.o"
+	@echo "... Parser/src/date_parser.i"
+	@echo "... Parser/src/date_parser.s"
+	@echo "... Parser/src/file_reader.o"
+	@echo "... Parser/src/file_reader.i"
+	@echo "... Parser/src/file_reader.s"
+	@echo "... Parser/src/float_parser.o"
+	@echo "... Parser/src/float_parser.i"
+	@echo "... Parser/src/float_parser.s"
+	@echo "... Parser/src/id_element_parser.o"
+	@echo "... Parser/src/id_element_parser.i"
+	@echo "... Parser/src/id_element_parser.s"
+	@echo "... Parser/src/id_parser.o"
+	@echo "... Parser/src/id_parser.i"
+	@echo "... Parser/src/id_parser.s"
+	@echo "... Parser/src/istream_reader.o"
+	@echo "... Parser/src/istream_reader.i"
+	@echo "... Parser/src/istream_reader.s"
+	@echo "... Parser/src/master_parser.o"
+	@echo "... Parser/src/master_parser.i"
+	@echo "... Parser/src/master_parser.s"
+	@echo "... Parser/src/parser_utils.o"
+	@echo "... Parser/src/parser_utils.i"
+	@echo "... Parser/src/parser_utils.s"
+	@echo "... Parser/src/segment_parser.o"
+	@echo "... Parser/src/segment_parser.i"
+	@echo "... Parser/src/segment_parser.s"
+	@echo "... Parser/src/size_parser.o"
+	@echo "... Parser/src/size_parser.i"
+	@echo "... Parser/src/size_parser.s"
+	@echo "... Parser/src/skip_parser.o"
+	@echo "... Parser/src/skip_parser.i"
+	@echo "... Parser/src/skip_parser.s"
+	@echo "... Parser/src/unknown_parser.o"
+	@echo "... Parser/src/unknown_parser.i"
+	@echo "... Parser/src/unknown_parser.s"
+	@echo "... Parser/src/var_int_parser.o"
+	@echo "... Parser/src/var_int_parser.i"
+	@echo "... Parser/src/var_int_parser.s"
+	@echo "... Parser/src/virtual_block_parser.o"
+	@echo "... Parser/src/virtual_block_parser.i"
+	@echo "... Parser/src/virtual_block_parser.s"
+	@echo "... Parser/src/void_parser.o"
+	@echo "... Parser/src/void_parser.i"
+	@echo "... Parser/src/void_parser.s"
+	@echo "... Parser/src/webm_parser.o"
+	@echo "... Parser/src/webm_parser.i"
+	@echo "... Parser/src/webm_parser.s"
 	@echo "... Renderer/QTAudioRenderer.o"
 	@echo "... Renderer/QTAudioRenderer.i"
 	@echo "... Renderer/QTAudioRenderer.s"

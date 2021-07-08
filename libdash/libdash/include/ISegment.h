@@ -31,7 +31,9 @@ namespace dash
                 virtual ~ISegment(){}
                 
                 virtual float GetSegDuration() = 0;
-                virtual void SetDuration(float) = 0;
+                virtual void SetSegDuration(float) = 0;
+                virtual uint64_t GetEndByte() = 0;
+                virtual uint64_t GetStartByte() = 0;
                 /**
                  *  This method allows you to specify an absolute URI for this Segment
                  *  @param      uri     a string representing an URI 

@@ -32,7 +32,10 @@ namespace dash
                 
 
                 float GetSegDuration();
-                void SetDuration(float duration); 
+                void SetSegDuration(float duration); 
+                uint64_t GetStartByte();
+                uint64_t GetEndByte();
+
                 bool                                Init            (const std::vector<IBaseUrl *>& baseurls, const std::string &uri,
                                                                      const std::string &range, dash::metrics::HTTPTransactionType type);
                 std::string&                        AbsoluteURI     ();

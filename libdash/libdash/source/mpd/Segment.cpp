@@ -29,6 +29,14 @@ Segment::~Segment   ()
 {
 }
 
+uint64_t Segment::GetStartByte() {
+    return this->startByte;
+}
+
+uint64_t Segment::GetEndByte() {
+    return this->endByte;
+}
+
 float Segment::GetSegDuration() {
     // return this->duration;
     // TODO: add Intime duration like below: current problem: not for VBR video and often -nan
@@ -37,7 +45,7 @@ float Segment::GetSegDuration() {
     return downloadBytes > 0 ? this->duration * streamBytes / downloadBytes : 0;
 }
 
-void Segment::SetDuration(float duration) {
+void Segment::SetSegDuration(float duration) {
     this->duration = duration;    
 }
 
@@ -53,15 +61,17 @@ bool                Segment::Init               (const std::vector<IBaseUrl *>& 
 
     for(size_t i = 0; i < baseurls.size(); i++)
         this->absoluteuri = Path::CombinePaths(this->absoluteuri, baseurls.at(i)->GetUrl());
-
+    
     this->absoluteuri = Path::CombinePaths(this->absoluteuri, uri);
-
-    if (uri != "" && dash::helpers::Path::GetHostPortAndPath(this->absoluteuri, host, port, path))
+    
+    if ((uri != "" || range != "") && dash::helpers::Path::GetHostPortAndPath(this->absoluteuri, host, port, path))
+    // I think uri could be "" for segmentbase.
+    // if (dash::helpers::Path::GetHostPortAndPath(this->absoluteuri, host, port, path))
     {
         this->host = host;
         this->port = port;
         this->path = path;
-
+        
         if (range != "" && dash::helpers::Path::GetStartAndEndBytes(range, startByte, endByte))
         {
             this->range         = range;
@@ -127,7 +137,14 @@ void                Segment::Path               (std::string path)
 }
 void                Segment::Range              (std::string range)
 {
-    this->range = range;
+    size_t      startByte   = 0;
+    size_t      endByte     = 0;
+    if (range != "" && dash::helpers::Path::GetStartAndEndBytes(range, startByte, endByte)) {
+        this->range         = range;
+        this->hasByteRange  = true;
+        this->startByte     = startByte;
+        this->endByte       = endByte;
+    }
 }
 void                Segment::StartByte          (size_t startByte)
 {

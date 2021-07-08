@@ -39,21 +39,28 @@ namespace libdash
                     virtual dash::mpd::ISegment*        GetMediaSegment                 (size_t segmentNumber) = 0;
                     virtual dash::mpd::ISegment*        GetBitstreamSwitchingSegment    () = 0;
                     virtual RepresentationStreamType    GetStreamType                   () = 0;
-
+                    
+                    // It's for segmentBase and it will be overriden by SingleSegmentStream.
+                    virtual dash::mpd::ISegment* GetIndexRangeSegment() {return NULL;}
+                    virtual void SetSegList(const std::vector<Cue>& cues, uint64_t segmentStart, uint64_t segmentEnd, 
+                                            uint64_t segmentDuration, uint64_t timescale) {}
+                    
                     virtual uint32_t                    GetSize                         ();
                     virtual uint32_t                    GetFirstSegmentNumber           ();
                     virtual uint32_t                    GetCurrentSegmentNumber         ();
                     virtual uint32_t                    GetLastSegmentNumber            ();
                     virtual uint32_t                    GetAverageSegmentDuration       ();
-
+                    virtual StreamContentType           GetStreamContentType            ();
+                    virtual void                        SetStreamContentType            (StreamContentType type);
                 protected:
                     virtual void                        SetBaseUrls                     (const std::vector<dash::mpd::IBaseUrl *> baseurls);
-
+                    std::vector<dash::mpd::ISegment *>  segList; // it's for segmentBaseStream.
                     std::vector<dash::mpd::IBaseUrl *>  baseUrls;
                     dash::mpd::IMPD                     *mpd;
                     dash::mpd::IPeriod                  *period;
                     dash::mpd::IAdaptationSet           *adaptationSet;
                     dash::mpd::IRepresentation          *representation;
+                    StreamContentType                   stream_content_type;
             };
         }
     }

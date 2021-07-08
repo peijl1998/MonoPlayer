@@ -47,7 +47,6 @@ void                URLType::SetType        (HTTPTransactionType type)
 ISegment*           URLType::ToSegment      (const std::vector<IBaseUrl *>& baseurls) const
 {
     Segment *seg = new Segment();
-    
     if(seg->Init(baseurls, this->sourceURL, this->range, this->type))
         return seg;
 

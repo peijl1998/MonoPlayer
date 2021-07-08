@@ -30,7 +30,7 @@ namespace dash
         {
             public:
                 virtual ~IURLType(){}
-
+                virtual void SetSourceURL(const std::string& sourceURL) = 0;
                 /**
                  *  Returns a reference to a string that pecifies the source URL part and shall be formated either as an \c <absolute-URI> according to RFC 3986, Clause 4.3, 
                  *  with a fixed scheme of \"http\" or \"https\" or as a \c <relative-ref> according to RFC 3986, Clause 4.2.\n

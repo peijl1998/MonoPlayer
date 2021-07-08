@@ -18,11 +18,20 @@ AbstractRepresentationStream::AbstractRepresentationStream  (IMPD *mpd, IPeriod 
                               mpd                           (mpd),
                               period                        (period),
                               adaptationSet                 (adaptationSet),
-                              representation                (representation)
+                              representation                (representation),
+                              stream_content_type           (UNKNOWN)
 {
 }
 AbstractRepresentationStream::~AbstractRepresentationStream ()
 {
+}
+
+StreamContentType AbstractRepresentationStream::GetStreamContentType () {
+    return this->stream_content_type;
+}
+
+void AbstractRepresentationStream::SetStreamContentType (StreamContentType type) {
+    this->stream_content_type = type;
 }
 
 void        AbstractRepresentationStream::SetBaseUrls               (const std::vector<dash::mpd::IBaseUrl *> baseurls)

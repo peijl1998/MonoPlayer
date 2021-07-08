@@ -28,7 +28,7 @@ SegmentBase::~SegmentBase   ()
     delete(this->representationIndex);
 }
 
-const IURLType*     SegmentBase::GetInitialization          ()  const
+IURLType*     SegmentBase::GetInitialization          ()  const
 {
     return this->initialization;
 }
