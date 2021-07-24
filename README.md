@@ -19,7 +19,7 @@ Compared to [libdash-sample player](https://github.com/bitmovin/libdash), MonoPl
 
 Showcase (the red boxes indicates the metric and abr change.)
 
-![image-20210724191648915](/Users/peijialiang/Library/Application Support/typora-user-images/image-20210724191648915.png)
+![image-20210724191648915](./asset/1.png)
 
 
 
