@@ -56,6 +56,7 @@ void SingleMediaSegmentStream::SetSegList(const std::vector<Cue>& cues,
             seg->SetSegDuration( (float)(segmentDuration - cues[i].cue_time) / timescale );
             end = segmentEnd - 1;
         }
+        std::cout << cues[i].cue_pos << std::endl;
         seg->Range(std::to_string(start) + "-" + std::to_string(end));
         
         this->segList.push_back(seg);

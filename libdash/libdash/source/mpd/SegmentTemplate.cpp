@@ -145,7 +145,7 @@ float SegmentTemplate::GetSegDuration() const {
     // This is for $NAME
     auto attrs = this->GetRawAttributes();
     if (attrs.find("duration") == attrs.end()) {
-        std::cout << "[BUPT ERROR][libdash/SegmentTemplate.cpp] duration not in attrs." << std::endl;
+        std::cout << "[ERROR][libdash/SegmentTemplate.cpp] duration not in attrs." << std::endl;
     } else {
         int duration = strtoul(attrs.find("duration")->second.c_str(), NULL, 10);
         int timescale = attrs.find("timescale") != attrs.end() ? strtoul(attrs.find("timescale")->second.c_str(), NULL, 10) : 1;

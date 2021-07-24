@@ -24,7 +24,7 @@ float DASHMetrics::GetThroughput(ThroughputType type) const {
     if (type == AVG) {
         return this->GetAverageThroughput();
     } else {
-        std::cout << "[BUPT WARN][qt/DASHMetrics]  TPT type not supported, use AVG\n";
+        std::cout << "[WARNING][qt/DASHMetrics]  TPT type not supported, use AVG\n";
         return this->GetAverageThroughput();    
     }
 }
@@ -41,7 +41,6 @@ float DASHMetrics::GetAverageThroughput() const {
     int count = 0;
     for (auto item : this->throughputHistory) {
         float t = ((float)item.first / 1024.0) / (item.second == 0 ? 1 : (float)item.second / 1000.0);
-        // std::cout << "[BUPT DEBUG][qt/DASHMetrics.cpp] i=" << count << " bytes=" << item.first << " dur=" << item.second << " tpt=" << t << std::endl;
         tpt_sum += t;
         count += 1;
     }

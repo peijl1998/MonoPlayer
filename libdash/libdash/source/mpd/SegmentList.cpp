@@ -27,7 +27,7 @@ SegmentList::~SegmentList   ()
 float SegmentList::GetSegDuration() const {
     auto attrs = this->GetRawAttributes();
     if (attrs.find("duration") == attrs.end()) {
-        std::cout << "[BUPT DEBUG][libdash/SegmentTemplate.cpp] duration not in attrs." << std::endl;
+        std::cout << "[DEBUG][libdash/SegmentTemplate.cpp] duration not in attrs." << std::endl;
     } else {
         int duration = strtoul(attrs.find("duration")->second.c_str(), NULL, 10);
         int timescale = attrs.find("timescale") != attrs.end() ? strtoul(attrs.find("timescale")->second.c_str(), NULL, 10) : 1;

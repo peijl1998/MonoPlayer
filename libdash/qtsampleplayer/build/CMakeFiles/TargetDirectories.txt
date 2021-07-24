@@ -1,4 +1,0 @@
-/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles/rebuild_cache.dir
-/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles/qtsampleplayer.dir
-/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles/edit_cache.dir
-/home/bupt/Workspace/XM_DASH/LIBDASH/MonoPlayer/libdash/qtsampleplayer/build/CMakeFiles/qtsampleplayer_autogen.dir

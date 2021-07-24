@@ -69,7 +69,7 @@ bool    AbstractChunk::StartDownload                ()
 }
 bool    AbstractChunk::StartDownload                (IConnection *connection)
 {
-    std::cout << "[BUPT WARNING][AbstractChunk.cpp]Use External Download, Trace won't be recorded" << std::endl;
+    std::cout << "[WARNING][AbstractChunk.cpp]Use External Download, Trace won't be recorded" << std::endl;
     if(this->stateManager.State() != NOT_STARTED)
         return false;
 
@@ -96,7 +96,6 @@ int     AbstractChunk::Read                         (uint8_t *data, size_t len)
     //     SleepConditionVariableCS(&this->stateChanged, &this->stateLock, INFINITE);
     // LeaveCriticalSection(&this->stateLock);
     auto ret = this->blockStream.GetBytes(data, len); 
-    // std::cout << "[BUPT DEBUG][AC.cpp] Read after, complete=" << (this->stateManager.State() == COMPLETED ? "true" : "false") << " " << this->AbsoluteURI() << std::endl;
     return ret;
 }
 int     AbstractChunk::Peek                         (uint8_t *data, size_t len)
@@ -243,9 +242,6 @@ void    AbstractChunk::HandleHeaderOutCallback      ()
     httpTransaction->SetRange(this->Range());
     httpTransaction->SetType(this->GetType());
     httpTransaction->SetRequestSentTime(Time::GetCurrentUTCTimeInMilliSec());
-    // if (this->HasByteRange()) {
-    //     std::cout << "[BUPT DEBUG][libdash/AbstractChunk.cpp] dowloading " << this->AbsoluteURI() <<  " range=" << this->Range() << std::endl;
-    // }
     this->httpTransactions.push_back(httpTransaction);
 }
 void    AbstractChunk::HandleHeaderInCallback       (std::string data)

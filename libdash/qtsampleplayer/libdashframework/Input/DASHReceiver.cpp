@@ -225,8 +225,8 @@ void                        DASHReceiver::DownloadInitSegment    (IRepresentatio
     StreamContentType stream_content_type = this->representationStream->GetStreamContentType();
 
     // TODO: It's better to confirm that it's segmentbase strem.
-    // if (stream_content_type == WEBM_VIDEO || stream_content_type == WEBM_AUDIO) {
-    if (false) {
+    if (stream_content_type == WEBM_VIDEO || stream_content_type == WEBM_AUDIO) {
+    // if (false) {
         // std::cout << "webm_video?" << (stream_content_type == WEBM_VIDEO ? "true" : "false") \
         //           << " webm_audio?" << (stream_content_type == WEBM_AUDIO ? "true" : "false") \
         //           << std::endl;
@@ -264,9 +264,6 @@ void*                       DASHReceiver::DoBuffering               (void *recei
 
     while(media != NULL && dashReceiver->isBuffering)
     {
-        // std::cout << "[BUPT DEBUG][qt/DASHReceiver.cpp] buffer level=" \
-        //           << dashReceiver->buffer->BufferLevel() << " full=" \ 
-        //           << (dashReceiver->buffer->Full() ? "true": "false") << std::endl;
         if (!dashReceiver->buffer->Full()) {
             media->StartDownload();
             
@@ -297,7 +294,7 @@ void DASHReceiver::GenerateSegList(IRepresentation* rep) {
     MediaObject *initSeg = NULL;
     initSeg = this->GetInitSegment();
     if (!initSeg) {
-        std::cout << "[BUPT ERROR][qt/DASHReceiver.cpp] InitSeg doesn't exists." << std::endl;
+        std::cout << "[ERROR][qt/DASHReceiver.cpp] InitSeg doesn't exists." << std::endl;
         return ;
     }
     initSeg->StartDownload();
@@ -310,7 +307,7 @@ void DASHReceiver::GenerateSegList(IRepresentation* rep) {
         indexSeg = new MediaObject(seg, this->representation);
     }
     if (!indexSeg) {
-        std::cout << "[BUPT ERROR][qt/DASHReceiver.cpp] IndexSeg doesn't exists." << std::endl;
+        std::cout << "[ERROR][qt/DASHReceiver.cpp] IndexSeg doesn't exists." << std::endl;
         return ;
     }
     indexSeg->StartDownload();
@@ -326,7 +323,8 @@ void DASHReceiver::GenerateSegList(IRepresentation* rep) {
     uint64_t end = parser.GetSegmentEnd();
     uint64_t duration = parser.GetInfoDuration();
     uint64_t timescale = parser.GetInfoTimescale();
-     
+    
+
     parser.Reset();
     parser.Parse(indexSeg->PeekAll());
 

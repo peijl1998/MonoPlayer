@@ -399,14 +399,14 @@ void MultimediaManager::Monitor(MultimediaManager* manager, const std::string& t
         rep = &manager->audioRepresentation;
         logic = manager->audioLogic;
     } else {
-        std::cout << "[BUPT ERROR][qt/MultimediaManager.cpp] unknown monitor type: " << type << std::endl;
+        std::cout << "[ERROR][qt/MultimediaManager.cpp] unknown monitor type: " << type << std::endl;
     }
 
     metrics = stream->GetMetrics();
     logic->SetMetrics(metrics);
     while (*EoM) {
         stream->UpdateMetrics();
-        std::cout << "[BUPT DEBUG][qt/MultimediaManager.cpp] StreamType=" << type \
+        std::cout << "[DEBUG][qt/MultimediaManager.cpp] StreamType=" << type \
                   << " Buffer Level=" << metrics->GetBufferLevel() << "s "\
                   << " AvgThroughput=" << metrics->GetThroughput() * 8 << "Kbps " \
                   << " CurrentRepID=" << (*rep)->GetId() \
@@ -414,7 +414,7 @@ void MultimediaManager::Monitor(MultimediaManager* manager, const std::string& t
         
         IRepresentation* target_rep = logic->GetRepresentation();
         if (target_rep->GetBandwidth() != (*rep)->GetBandwidth()) {
-            std::cout << "[BUPT DEBUG][qt/MultimediaManager.cpp] ABR Change from " \ 
+            std::cout << "[DEBUG][qt/MultimediaManager.cpp] ABR Change from " \ 
                       << (*rep)->GetBandwidth() << " to " << target_rep->GetBandwidth() << std::endl;
             
             if (type == "video") {

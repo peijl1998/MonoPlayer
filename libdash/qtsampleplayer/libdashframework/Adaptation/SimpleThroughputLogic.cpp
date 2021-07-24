@@ -32,7 +32,6 @@ IRepresentation* SimpleThroughputLogic::GetRepresentation  () {
             best_idx = i;
         }
     }
-    // std::cout << "[BUPT DEBUG][qt/SimpleThroughputLogic.cpp] " << this->metrics->GetThroughput() << " avg_tpt=" << avg_throughput << " choose bw=" << reps.at(best_idx != -1 ? best_idx : least_idx)->GetBandwidth() << std::endl; 
     return reps.at(best_idx != -1 ? best_idx : least_idx);
 }
 
